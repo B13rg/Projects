@@ -15,6 +15,7 @@ This is a Django project meant to make downloading sound clips from the BBC Soun
 ## Reddit Bots
 ### Description
 This project contains various examples of Reddit bots.  Using these you can easily figure out how to build one for a specific purpose.
+
 ## URL Checker
 ### Description
 This will be a script that will comb through a list of URL's and compile information about them.  Currently, it only (kind of) checks if it is online.
@@ -23,9 +24,18 @@ This will be a script that will comb through a list of URL's and compile informa
   * Whois data
   * Protocol versions
   * Screenshot or PDF of the website in question
+
 ## Youtube Watched Autoremover
 ### Description
 The purpose of this tool is to remove videos from a youtube "Watch Later" playlist.  Videos can be added very easily, but once they are watched they remain in the list until you remove them.  This would automaticlly run every X minutes or hours and clear out the playlist of watched videos.  That way, the list won't contain videos you've already seen.
 ### Goals
 * Work.
 * Choose wether to delete videos or add them to another playlist
+
+## Chip 8 Emulator
+### Description
+This is an emulator for the chip 8.  It may or may not work, I'm still working on it.  I used this website ([http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/](http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/)) as a guide.  This has the graphics semi-setup, and can be used for other emulator or simple graphic programs.
+### Goals
+ * Get it working
+ * Add Super Chip-8 Opcodes
+ * Use functions instead of a switch statement
