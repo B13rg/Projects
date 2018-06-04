@@ -39,9 +39,3 @@ This is an emulator for the chip 8.  It may or may not work, I'm still working o
  * Get it working
  * Add Super Chip-8 Opcodes
  * Use functions instead of a switch statement
-
-## Method Timing Graph
-### Description
-This was a simple example to learn how to make graphs using python and MatPlotLib.  I also wanted to make this type of graph, and decided to try and program a graph instead of using excel.  I was testing the performance speeds between the old and new versions of a method.  The old version executed instructions one by one while the new method uses threads to spped things up.  I collected timings data from testing, and wanted to display it a certain way.
-
-The x values are the old method times while the y values are the new method times.  I plotted it this was because then it would be easier to see which function is usually faster.  The line going across splits the graph into two areas: one where the old method was faster and one where the new method was faster.  It is easy to see at a glance which method was faster out of the 500 trials.  There usually wouldn't be a relationship between the times, but each time the pair of methods were run they used the same source data, and depending on the data amount it would take shorter or longer.
