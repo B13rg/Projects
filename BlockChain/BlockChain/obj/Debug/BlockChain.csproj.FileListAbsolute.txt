@@ -1,0 +1,14 @@
+c:\users\brendanb\documents\visual studio 2015\Projects\BlockChain\BlockChain\bin\Debug\BlockChain.exe.config
+c:\users\brendanb\documents\visual studio 2015\Projects\BlockChain\BlockChain\bin\Debug\BlockChain.exe
+c:\users\brendanb\documents\visual studio 2015\Projects\BlockChain\BlockChain\bin\Debug\BlockChain.pdb
+c:\users\brendanb\documents\visual studio 2015\Projects\BlockChain\BlockChain\bin\Debug\AWSSDK.Core.dll
+c:\users\brendanb\documents\visual studio 2015\Projects\BlockChain\BlockChain\bin\Debug\AWSSDK.S3.dll
+c:\users\brendanb\documents\visual studio 2015\Projects\BlockChain\BlockChain\bin\Debug\AWSSDK.Core.xml
+c:\users\brendanb\documents\visual studio 2015\Projects\BlockChain\BlockChain\bin\Debug\AWSSDK.S3.xml
+c:\users\brendanb\documents\visual studio 2015\Projects\BlockChain\BlockChain\obj\Debug\BlockChain.csprojResolveAssemblyReference.cache
+c:\users\brendanb\documents\visual studio 2015\Projects\BlockChain\BlockChain\obj\Debug\BlockChain.exe
+c:\users\brendanb\documents\visual studio 2015\Projects\BlockChain\BlockChain\obj\Debug\BlockChain.pdb
+c:\users\brendanb\documents\visual studio 2015\Projects\BlockChain\BlockChain\bin\Debug\AWSSDK.DynamoDBv2.dll
+c:\users\brendanb\documents\visual studio 2015\Projects\BlockChain\BlockChain\bin\Debug\AWSSDK.Core.pdb
+c:\users\brendanb\documents\visual studio 2015\Projects\BlockChain\BlockChain\bin\Debug\AWSSDK.DynamoDBv2.pdb
+c:\users\brendanb\documents\visual studio 2015\Projects\BlockChain\BlockChain\bin\Debug\AWSSDK.DynamoDBv2.xml

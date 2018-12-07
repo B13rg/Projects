@@ -1,0 +1,7 @@
+c:\users\brendanb\documents\visual studio 2015\Projects\6502\6502\bin\Debug\6502.exe.config
+C:\Users\BrendanB\documents\visual studio 2015\Projects\6502\6502\bin\Debug\6502.exe
+C:\Users\BrendanB\documents\visual studio 2015\Projects\6502\6502\bin\Debug\6502.pdb
+C:\Users\BrendanB\documents\visual studio 2015\Projects\6502\6502\obj\Debug\6502.csprojResolveAssemblyReference.cache
+C:\Users\BrendanB\documents\visual studio 2015\Projects\6502\6502\obj\Debug\6502.exe
+C:\Users\BrendanB\documents\visual studio 2015\Projects\6502\6502\obj\Debug\6502.pdb
+C:\Users\BrendanB\documents\visual studio 2015\Projects\6502\6502\bin\Debug\TestFiles\6502_functional_test.bin

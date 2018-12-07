@@ -45,3 +45,15 @@ This is an emulator for the chip 8.  It may or may not work, I'm still working o
 This was a simple example to learn how to make graphs using python and MatPlotLib.  I also wanted to make this type of graph, and decided to try and program a graph instead of using excel.  I was testing the performance speeds between the old and new versions of a method.  The old version executed instructions one by one while the new method uses threads to spped things up.  I collected timings data from testing, and wanted to display it a certain way.
 
 The x values are the old method times while the y values are the new method times.  I plotted it this was because then it would be easier to see which function is usually faster.  The line going across splits the graph into two areas: one where the old method was faster and one where the new method was faster.  It is easy to see at a glance which method was faster out of the 500 trials.  There usually wouldn't be a relationship between the times, but each time the pair of methods were run they used the same source data, and depending on the data amount it would take shorter or longer.
+
+## 6502 Emulator
+### Description
+This is a emulator for the 6502 written in C#.  Currently, all the opcodes should be complete. More testing and work still needs to take place though.
+
+## Blockchain
+### Description
+This is an example blockchain I made using C# and an Amazon Dynamo DB.  For simplicity, each block is stored as a row in the DB.  I did this project to better understand how blockchains work.  There is no "work" cost to create a block because I originally planned to use this project to monitor twitter accounts.  Whenever a tweet was made, it would save it in the blockchain.  That way if the user edited or deleted the tweet, we'd still have the original text.  This could of cource be accomplished by a database, but blockchains are "In" right now.
+
+## Blockviewer
+### Description
+This allows you to view blockchain transactions in real time.  It colors the transactions based on the type and amount.
