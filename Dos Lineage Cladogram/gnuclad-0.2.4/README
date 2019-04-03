@@ -1,0 +1,16 @@
+Copyright (C) 2010-2011 Donjan Rodic <donjan@dyx.ch>
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.  This file is offered as-is,
+without any warranty.
+
+________________________________________________________________________
+
+
+gnuclad is a cladogram generator.
+The most recent version can be found at https://launchpad.net/gnuclad
+
+For more info and a detailed manual, please consult the Texinfo pages.
+They should be distributed in together with gnuclad and can be found
+in the 'doc' folder.

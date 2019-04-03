@@ -30,7 +30,7 @@ This will be a script that will comb through a list of URL's and compile informa
 The purpose of this tool is to remove videos from a youtube "Watch Later" playlist.  Videos can be added very easily, but once they are watched they remain in the list until you remove them.  This would automaticlly run every X minutes or hours and clear out the playlist of watched videos.  That way, the list won't contain videos you've already seen.
 ### Goals
 * Work.
-* Choose wether to delete videos or add them to another playlist
+* Choose whether to delete videos or add them to another playlist
 
 ## Chip 8 Emulator
 ### Description

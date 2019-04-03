@@ -1,0 +1,34 @@
+Copyright (C) 2010-2011 Donjan Rodic <donjan@dyx.ch>
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.  This file is offered as-is,
+without any warranty.
+
+________________________________________________________________________
+
+gnuclad is built with the GNU toolchain.
+These tools are included in most GNU/Linux and BSD distributions and can
+be obtained from the Xcode developer package on OSX.
+On Windows, compilation works flawlessly with MinGW & MSYS.
+Other build systems may work but have not been tested.
+
+To compile gnuclad, open this folder in a terminal and type:
+  sh configure
+  make
+
+This will produce a 'gnuclad' binary in the 'src' folder.
+Change to the 'example' folder and generate your first SVG image:
+  cd example
+  ../src/gnuclad --help
+  ../src/gnuclad example.csv svg example.conf
+
+In order to install gnuclad on a POSIX conform system, change back to
+the main directory and run the install routine:
+  cd ..
+  make install
+
+You should now be able to call gnuclad from any folder.
+If you wish to uninstall gnuclad, simply open a terminal in that same
+main folder and execute:
+  make uninstall

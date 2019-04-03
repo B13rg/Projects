@@ -1,0 +1,668 @@
+Copyright (C) 2010 Donjan Rodic <donjan@dyx.ch>
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.  This file is offered as-is,
+without any warranty.
+
+________________________________________________________________________
+
+created with: bzr log --gnu-changelog
+
+
+2011-04-01  bryonak  <bryonak@freenet.de>
+
+	gnuclad 0.2.4 RELEASE
+	generator/svg.cpp:
+	fix: validate XML in namechange description (thanks to Daniel Dobert)
+	doc/src:
+	improved programming examples
+
+2011-02-13  bryonak  <bryonak@freenet.de>
+
+	passing on fixes from gnuclad 0.2.3
+
+2011-02-13  bryonak  <bryonak@freenet.de>
+
+	gnuclad 0.2.3 RELEASE
+	generator/conf.cpp:
+	fix: comments (thanks to Jean-François Fortin Tam)
+	doc/man/gnuclad.1:
+	improved man page
+
+2010-09-24  bryonak  <bryonak@freenet.de>
+
+	cosmetic changes
+	updated ToDo
+
+2010-08-27  bryonak  <bryonak@freenet.de>
+
+	added man page
+	doc/man/gnuclad.1
+
+2010-08-10  bryonak  <bryonak@freenet.de>
+
+	updated ToDo
+	preparation for 0.3 development
+	cosmetic changes
+
+2010-07-31  bryonak  <bryonak@freenet.de>
+
+	gnuclad 0.2.2 hotfix RELEASE
+	generator/svg.cpp:
+	fix: validxml() escape whitespace in refs, but not in content
+
+2010-07-31  bryonak  <bryonak@freenet.de>
+
+	gnuclad 0.2.2 RELEASE
+	generator/svg.cpp:
+	fix: added whitespace encoding to validxml()
+
+2010-07-31  bryonak  <bryonak@freenet.de>
+
+	gnuclad 0.2.1 RELEASE
+
+2010-07-31  bryonak  <bryonak@freenet.de>
+
+	generator/svg.cpp:
+	reimplemented validxml()
+	fix: using validixml for labels and descriptions
+
+2010-07-31  bryonak  <bryonak@freenet.de>
+
+	gnuclad-cladogram.cpp:
+	improved single node injection parameters
+	improved injectSingleRootAt calling setup
+	manual:
+	updated according to changes above
+
+2010-07-28  bryonak  <bryonak@freenet.de>
+
+	gnuclad-cladogram.cpp:
+	refractured insertion of spacing at tree edges to be more efficient
+	fix: initial value of minimal domain offset was too low
+	generator/conf.cpp:
+	moved debug option to top, as to get it activated before opts parsing
+
+2010-07-28  bryonak  <bryonak@freenet.de>
+
+	gnuclad-cladogram.cpp:
+	fix: always sort nodes before optimisation (bug 610762)
+	removed example.svg
+
+2010-07-23  bryonak  <bryonak@freenet.de>
+
+	gnuclad 0.2 RELEASE
+
+2010-07-23  bryonak  <bryonak@freenet.de>
+
+	gnuclad.cpp:
+	fix: empty basename with directory parser
+	gnuclad-cladogram.cpp:
+	fix: double to int assignment in optimise_strictOverlaps()
+	src/generator/svg.cpp:
+	fix: validxml() chars 91-96
+	fix: three double to int assignments
+	src/generator/png.cpp:
+	added inkscape instructions
+
+2010-07-22  bryonak  <bryonak@freenet.de>
+
+	updated NEWS
+	updated ChangeLog
+	updated Texinfo manual
+
+2010-07-22  bryonak  <bryonak@freenet.de>
+
+	gnuclad-cladogram.cpp:
+	fix: exact domain offset assignment (+honor tighterDomains)
+	fix: optimise_pullToRoot() must fetch new rootOffset within loop
+	fix: optimise_pullToRoot() now has proper maxOffset checking
+	generator/svg.cpp:
+	fix: posYparent in line calculation with dType < 1
+
+2010-07-21  bryonak  <bryonak@freenet.de>
+
+	generator/conf.cpp:
+	added missing equals sign
+	manual:
+	split programming-classes and programming-helpers
+	improved optimisation chapter
+	general updates and improvements
+
+2010-07-20  bryonak  <bryonak@freenet.de>
+
+	gnuclad-cladogram.cpp:
+	fix: ignore nameChanges occuring after endOfTime
+
+2010-07-20  bryonak  <bryonak@freenet.de>
+
+	gnuclad.h:
+	declared tighterDomains
+	generator/svg.cpp:
+	fix: label alignment with bigParent > 0
+	implemented tighterDomains
+
+2010-07-19  bryonak  <bryonak@freenet.de>
+
+	gnuclad-cladogram.cpp:
+	fix: moved truncateFolder block after domain and connector assignment
+	parser/dir.cpp:
+	implemented folder domains
+	overriding treeSpacingBiggerThan to 0
+	generator/conf.cpp:
+	added dir_domainSize and dir_domainIntensity
+
+2010-07-19  bryonak  <bryonak@freenet.de>
+
+	gnuclad-cladogram.cpp:
+	fixed injectSingleRootAt call condition
+	fixed strictOverlaps tmp vector (self overlapping)
+	implemented another slope for derivType 2, 3 and 4
+	generator/svg.cpp:
+	implemented derivType 2, moved the others up (2-4 -> 3-5)
+	generator/conf.cpp:
+	added missing clad->strictOverlaps
+	improved comments
+
+2010-07-18  bryonak  <bryonak@freenet.de>
+
+	gnuclad-cladogram.cpp:
+	implemented prependYears
+	cleaned up some comments
+	generator/svg.cpp:
+	using prependYears all over the file (9 instances)
+	fixed icon rotation on orientation = 1  (TopBottom)
+	fixed vertical icon spacing (yrlinePX -> topOffset)
+	improved icon processing (more general, less code)
+	generator/conf.cpp:
+	added prependYears
+	improved comments
+
+2010-07-17  bryonak  <bryonak@freenet.de>
+
+	gnuclad.h:
+	modified declaration of optimise_pullToParent
+	gnuclad-cladogram.cpp:
+	fixed optimise_pullToParent pass correct
+	parameters to optimise_strictOverlaps
+
+2010-07-17  bryonak  <bryonak@freenet.de>
+
+	improved comments
+	gnuclad.h:
+	implemented compareRootDist()
+	removed optimise_weakPullTree() and optimise_strongPullTree()
+	added optimise_pullToParent() and optimise_pullToRoot()
+	gnuclad-cladogram.cpp:
+	removed optimise_weakPullTree() and optimise_strongPullTree()
+	implemented optimise_pullToParent() and optimise_pullToRoot()
+	fixed optimise_nextTree() calling condition
+	generator/svg.cpp:
+	rewritten strlenpx()
+	added enum for orientation and nameChangeType
+	reduced dirty_hack_em from 1.675 to 1.625
+	changed constants for derivType (2-4) curvature
+
+2010-07-12  bryonak  <bryonak@freenet.de>
+
+	gnuclad.h:
+	implemented compareParDist
+	added optimise_weakPullTree, optimise_strongPullTree
+	added optimise_strictOverlaps
+	gnuclad-cladogram.cpp:
+	implemented optimise_weakPullTree and optimise_strongPullTree
+	implemented optimise_strictOverlaps
+	improved comments
+	parser/dir.cpp:
+	fixed trailing endOfTime bug for real
+	generator/svg.cpp:
+	fixed bigParent fadeout for real
+	generator/conf.cpp:
+	added strictOverlaps
+
+2010-07-11  bryonak  <bryonak@freenet.de>
+
+	small code cleanup and improved comments
+	parser/dir.cpp:
+	fixed trailing endOfTime year count
+	implement configured colors
+	generator/conf.cpp:
+	added dir_colorFile, dir_colorDir and dir_colorLink
+
+2010-07-05  bryonak  <bryonak@freenet.de>
+
+	generator/svg.cpp:
+	implemented line width proportional to node size
+	implemented dot radious proportional to node size
+	fixed fadeout and posYparent in respect to bigParent
+	gnuclad-cladogram.cpp:
+	implemented spacing for fat lines (bigParent)
+	generator/conf.cpp:
+	added bigParent
+
+2010-07-04  bryonak  <bryonak@freenet.de>
+
+	gnuclad.h:
+	removed cons requirement from datePX()
+	gnuclad-cladogram.cpp:
+	greatly improved optimise_pullTree()
+	PX based collision detection
+	fixed deriv lines overlapping with stopping node lines
+	removal of lines that have been pulled empty
+
+2010-07-04  bryonak  <bryonak@freenet.de>
+
+	generator/conf.cpp:
+	derivType 3 -> 4, added derivType 3
+	generator/svg.cpp:
+	improved derivType 2-4 to scale correctly
+	parser/dir.cpp:
+	Warn if derivType is not 1 or 4
+
+2010-07-03  bryonak  <bryonak@freenet.de>
+
+	generator/svg.cpp:
+	implemented appendYears
+	toggle debug label backgrounds
+	generator/conf.cpp:
+	added appendYears
+	parser/csv.cpp:
+	improved check: ignore lines starting with #
+
+2010-06-28  bryonak  <bryonak@freenet.de>
+
+	gnuclad-cladogram.cpp:
+	implemented slice
+	improved node erasing (in-place instead of scheduled)
+	postponed roots selection
+	fixed nodesPreorder (faster when starting from behind)
+	warn "unable to assign domain" instead of throw
+	warn "unable to assign connector" instead of throw
+	removed entry hint for "node starts after EOT"
+	generator/svg.cpp:
+	fixed start point with derivType 2
+	added ( and ) to strlenpx heuristic
+	generator/conf.cpp:
+	added slice and derivType 2, 3
+
+2010-06-23  bryonak  <bryonak@freenet.de>
+
+	gnuclad-cladogram.cpp: implemented nodesPreorder()
+	generator/svg.cpp: using nodesPreorder for derivType 2 and 3
+
+2010-06-22  bryonak  <bryonak@freenet.de>
+
+	generator/svg.cpp: alpha stage curved deriv lines (derivType 2, 3)
+	implemented image title
+
+2010-06-21  bryonak  <bryonak@freenet.de>
+
+	gnuclad-portability.cpp: improved implementation
+	gnuclad.cpp: fixed InputFile on input without extension
+	parser/dir.cpp: using islink()
+	implemented stat-ing
+	improved readableDir()
+	dummy color vars
+	general improvement
+
+2010-06-20  bryonak  <bryonak@freenet.de>
+
+	generator/conf.cpp: added asciiStrings
+	dir_showDotDirs -> dir_showDotFiles
+	generator/svg.cpp: implemented strlenpx (asciiStrings)
+	fixed stop gradients for WebKit (stroke -> style fill)
+	less local dirty_hack_ex/em
+	add breaks if stopFadeOutPX is 0
+	parser/dir.cpp: general improvement, working alpha
+
+2010-03-13  bryonak  <bryonak@freenet.de>
+
+	code cleanup across the project
+	src/generator/svg.cpp: improved "Don't reach behind trees" block
+	src/generator/csv.cpp: added PNG inclusions
+	Domains: distribution -> node
+	src/parser/dir.cpp: more wip
+
+2010-03-08  bryonak  <bryonak@freenet.de>
+
+	src/generator/conf.cpp: fixed endOfTime check (bug 534301)
+	improved explanations
+	added example/dir.conf
+
+2010-03-08  bryonak  <bryonak@freenet.de>
+
+	src/parser/dir.cpp: improved parsing, still experimental
+	src/generator/conf.cpp: added dir_showDotDirs
+	src/generator/svg.cpp: added clad->gnuclad_version
+	rounded main background corners
+	src/gnuclad-cladogram.cpp: added truncateFolder, inVitro, dir_showDotDirs
+	added node->size < treeSpacingBiggerThan warning
+	print full source => dest names
+	src/gnuclad.h: added truncateFolder, inVitro, dir_showDotDirs
+
+2010-03-06  bryonak  <bryonak@freenet.de>
+
+	src/generator/svg.cpp: implemented out of boundaries infobox
+	turned off default cflags
+
+2010-03-06  bryonak  <bryonak@freenet.de>
+
+	added src/parser/dir*, implemented in src/gnuclad.cpp, src/Makefile.am and across the manual
+	src/gnuclad-helpers.cpp: removed #include "gnuclad-portability.h"
+	src/gnuclad.h: added #include "gnuclad-portability.h"
+	doc/src/Makefile.am: fixed newline in SOURCES
+	INSTALL: improved instructions
+
+2010-03-06  bryonak  <bryonak@freenet.de>
+
+	improved and updated manual in many places
+
+2010-03-06  bryonak  <bryonak@freenet.de>
+
+	moved parsers to src/parser and generators to src/generator
+	configure.ac: added subdir-objects
+	fixed typos in manual
+
+2010-03-05  bryonak  <bryonak@freenet.de>
+
+	src/generatorSVG.cpp: fixed icon placement if orientation == 2
+	added one em to posXwName
+	doc/src/gnuclad-config.texi: fixed yearLineColor, orientation
+
+2010-03-04  bryonak  <bryonak@freenet.de>
+
+	doc/Makefile.am -> doc/src/Makefile.am
+
+2010-03-04  bryonak  <bryonak@freenet.de>
+
+	readded build files
+
+2010-03-04  bryonak  <bryonak@freenet.de>
+
+	more cleanup
+
+2010-03-04  bryonak  <bryonak@freenet.de>
+
+	added doc
+
+2010-03-04  bryonak  <bryonak@freenet.de>
+
+	manual -> doc
+	fixed ChangeLog
+	temporary cleanup of all regenerated files
+
+2010-03-04  bryonak  <bryonak@freenet.de>
+
+	added small copyright notice to all supporting files
+
+2010-02-28  bryonak  <bryonak@freenet.de>
+
+	fixed: gnuclad.cpp: split declare/initialise of clad
+	fixed: INSTALL instructions
+
+2010-02-28  bryonak  <bryonak@freenet.de>
+
+	added: gnuclad-usage.texi
+	improved: INSTALL
+
+2010-02-28  bryonak  <bryonak@freenet.de>
+
+	switching to autotools: step 2
+
+2010-02-28  bryonak  <bryonak@freenet.de>
+
+	switching to autotools
+
+2010-02-24  bryonak  <bryonak@freenet.de>
+
+	added: configure, Makefile.in, AUTHORS, COPYING, INSTALL, ToDo
+	removed: LICENSE, TODO
+	fixed: DESTDIR = /usr/local/bin
+	fixed: lowercase manual and example folder
+	implemented: make distclean, make dist
+	manual cleanup
+
+2010-02-20  bryonak  <bryonak@freenet.de>
+
+	implemented: version Cladogram and in generatorCONF.cpp
+	code cleanup
+
+2010-02-19  bryonak  <bryonak@freenet.de>
+
+	fixed: orientation of icons
+	added: example icons
+
+2010-02-19  bryonak  <bryonak@freenet.de>
+
+	implemented: Date::operator==(Date d);
+	implemented: InputFile, OutputFile
+	lots of code cleanup
+	better organisation of manual (split config, parser, generator)
+	lots of manual cleanup
+
+2010-02-18  bryonak  <bryonak@freenet.de>
+
+	implemented rOf(Date, int, int)
+	implemented Date::operator==(Date)
+	lowercased example and manual folder names
+
+2010-02-16  bryonak  <bryonak@freenet.de>
+
+	added missing html manual file
+
+2010-02-16  bryonak  <bryonak@freenet.de>
+
+	implemented: Date(y,m) and Date(y) constructors
+	added manual section: How to use config options
+	improved manual ordering
+
+2010-02-16  bryonak  <bryonak@freenet.de>
+
+	implemented: inputFolder (new internal variable so that gnuclad can be executed from everywhere)
+	implemented: getBaseFolder(std::string)
+
+2010-02-15  bryonak  <bryonak@freenet.de>
+
+	split off cladogram implementation
+	improved gnuclad-portability.h (#ifndef, const folder_delimiter)
+	improved manual structure
+	updated TODO
+
+2010-02-14  bryonak  <bryonak@freenet.de>
+
+	typo hotfix in config manual
+
+2010-02-14  bryonak  <bryonak@freenet.de>
+
+	cosmetical updates
+
+2010-02-14  bryonak  <bryonak@freenet.de>
+
+	this commit has been selected as gnuclad v0.1 release
+	added CHANGELOG
+	moved source/ to src/
+	improved Makefile (BINARY, DESTDIR, SHELL, folder separators)
+
+2010-02-14  bryonak  <bryonak@freenet.de>
+
+	implemented: better validxml() algorithm
+	implemented: descriptionType (formerly hyperlink)
+	improved: default config options
+	code cleanup
+	fixed: manual typos
+	implemented: manual cross references
+	added: example.conf example2.conf
+	improved: included example images
+
+2010-02-12  bryonak  <bryonak@freenet.de>
+
+	fixed compilation bugs on OSX (missing virtual destructors)
+	improved 1 line in Makefile
+	added version and date to manual
+	improved manual and moved from MANUAL.html to index.html
+	improved README
+
+2010-02-12  bryonak  <bryonak@freenet.de>
+
+	feature: generatorCONF
+	improved: manual (Programming, Config)
+	improved: configuration file
+
+2010-02-12  bryonak  <bryonak@freenet.de>
+
+	updated: manual
+	reorganised manual structure
+	cleaned up Makefile
+
+2010-02-11  bryonak  <bryonak@freenet.de>
+
+	added manual files
+
+2010-02-11  bryonak  <bryonak@freenet.de>
+
+	feature: greatly improved build system
+	feature: Makefile improvements (conditional target prerequisites)
+	feature: install/uninstall on POSIX
+	feature: improved manual
+	file cleanup throughout the project
+	code cleanup
+
+2010-02-11  bryonak  <bryonak@freenet.de>
+
+	implemented: texinfo manual
+	fixed: zero argument bug
+
+2010-02-11  bryonak  <bryonak@freenet.de>
+
+	added gnuclad-portability.h
+
+2010-02-11  bryonak  <bryonak@freenet.de>
+
+	feature: icons (SVG and PNG)
+	feature: includable PNG images
+	fixed: removed Icon class
+	implemented: base64_encode, base64_png
+	implemented: SVG_defs, SVG_body
+	code cleanup
+
+2010-02-10  bryonak  <bryonak@freenet.de>
+
+	feature: honors "-v", "--version", "-h", "--help"
+	feature: monthset/dayset switches
+	feature: label background opacity (labelBGOpacity)
+	feature: can now specify output file name
+	fixed: Date2str returns truncated string based on setbits
+	fixed: folder delimiter abstraction
+	fixed: getExt ignores possible folder delimiters
+	implemented: rgb2hexHue
+	implemented: hex2rgbHue
+	improved: README
+	code cleanup
+
+2010-02-10  bryonak  <bryonak@freenet.de>
+
+	improved: PROGRAMMING
+	slight code cleanup
+
+2010-02-05  bryonak  <bryonak@freenet.de>
+
+	feature: orientation
+	improved: rulers generation
+
+2010-02-04  bryonak  <bryonak@freenet.de>
+
+	fixed: compiler warning on windows
+
+2010-02-04  bryonak  <bryonak@freenet.de>
+
+	small code cleanup
+	updated readme/todo
+
+2010-02-04  bryonak  <bryonak@freenet.de>
+
+	feature: CSV generator
+	feature: nameChangeType
+	feature: dotType
+	feature: invers lower tree generation
+	implemented: color constructors hex <-> rgb
+	implemented: removal of GCT
+	implemented: correct inkscape/sodipodi namespace headers
+	fixed: infobox text font-size placement
+	fixed: removed PNG from supported versions
+	confirmed: works with minus years
+
+2010-02-03  bryonak  <bryonak@freenet.de>
+
+	fixed: generatorSVG now produces valid XML
+	fixed: various SVG display properties
+	fixed: SVG inclusion
+	feature: infoBoxFontColor
+	improved: titleBoxText
+
+2010-02-02  bryonak  <bryonak@freenet.de>
+
+	small bugfix in year ruler generation
+
+2010-02-02  bryonak  <bryonak@freenet.de>
+
+	feature: include external SVG images
+	feature: font correction factor
+	improved infobox handling
+	function: str2double
+	code cleanup
+
+2010-02-02  bryonak  <bryonak@freenet.de>
+
+	Feature: different endpoint times for connectors
+	Code cleanup
+	small README addition
+
+2010-01-29  bryonak  <bryonak@freenet.de>
+
+	font bugfix
+
+2010-01-29  bryonak  <bryonak@freenet.de>
+
+	Corrected vertical alignment for derivation lines/markers.
+	Improved tree reach optimisation for single roots.
+	Implemented connector markers.
+	New options: descriptionIsHyperLink, treeSpacingBiggerThan, connectorDots
+
+2010-01-23  bryonak  <bryonak@freenet.de>
+
+	Lower subtree (treeMode=1)
+	pullTree optimisation
+	various cleanups/improvements
+
+2010-01-21  bryonak  <bryonak@freenet.de>
+
+	ignore file
+
+2010-01-21  bryonak  <bryonak@freenet.de>
+
+	removing archives
+
+2010-01-21  bryonak  <bryonak@freenet.de>
+
+	MinGW compatibility
+
+2010-01-21  bryonak  <bryonak@freenet.de>
+
+	archives
+
+2010-01-20  bryonak  <bryonak@freenet.de>
+
+	dirent.h
+
+2010-01-20  bryonak  <bryonak@freenet.de>
+
+	Initial commit
+
+2010-01-20  bryonak  <bryonak@freenet.de>
+
+	No commit message
+2010-01-20  bryonak  <bryonak@freenet.de>
+
+	Initial commit
+
