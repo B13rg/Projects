@@ -1,0 +1,1 @@
+Select MIN(LogDateTime) as "Min Date",MAX(LogDateTime) as "Max Date" from securitylog;
