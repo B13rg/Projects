@@ -22,5 +22,5 @@ for filename in os.listdir(srcDir):
 	result.paste(orig,pastLoc)
 
 	#Save result
-	outFile = outDir+str(outsize[0])+"x"+str(outsize[1])+filename
-	result.save(outFile)
+	outFile = outDir+str(outsize[0])+"x"+str(outsize[1])+filename+'.png'
+	result.save(outFile,'PNG')
