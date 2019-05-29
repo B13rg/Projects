@@ -1,0 +1,448 @@
+{
+	"provider": {
+	  "name": "Counter-Strike: Global Offensive",
+	  "appid": 730,
+	  "version": 13516,
+	  "steamid": "XXXXXXXXXXXXXXXXX",
+	  "timestamp": 1450805519
+	},
+	"map": {
+	  "mode": "casual",
+	  "name": "de_dust2",
+	  "phase": [
+		 "live",
+		 "gameover"
+	  ],
+	  "round": [
+		 0,
+		 1,
+		 2,
+		 3,
+		 4,
+		 5,
+		 6,
+		 7,
+		 8,
+		 9,
+		 10,
+		 11,
+		 12
+	  ],
+	  "team_ct": {
+		 "score": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8
+		 ]
+	  },
+	  "team_t": {
+		 "score": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8
+		 ]
+	  }
+	},
+	"round": {
+	  "phase": [
+		 "live",
+		 "over",
+		 "freezetime"
+	  ],
+	  "bomb": [
+		 "planted",
+		 "exploded",
+		 "defused"
+	  ],
+	  "win_team": [
+		 "T",
+		 "CT"
+	  ]
+	},
+	"player": {
+	  "steamid": [
+		 "XXXXXXXXXXXXXXXXX",
+		 "YYYYYYYYYYYYYYYYY",
+		 "ZZZZZZZZZZZZZZZZZ"
+	  ],
+	  "name": [
+		 "MyName",
+		 "Ulric",
+		 "Fergus"
+	  ],
+	  "activity": "playing",
+	  "state": {
+		 "health": [
+			0,
+			100,
+			48,
+			40,
+			32,
+			24,
+			16,
+		 ],
+		 "armor": [
+			0,
+			100,
+			89,
+			95,
+			93,
+			92
+		 ],
+		 "helmet": [
+			false,
+			true
+		 ],
+		 "flashed": [
+			0,
+			114,
+			89,
+			255,
+			20,
+			9
+		 ],
+		 "smoked": [
+			0,
+			255,
+			128
+		 ],
+		 "burning": [
+			0,
+			255,
+			227,
+			147,
+			34
+		 ],
+		 "money": [
+			1000,
+			500,
+			700,
+			8350,
+			8500,
+			9400
+		 ],
+		 "round_kills": [
+			2,
+			0,
+			1,
+			3,
+			4,
+			5
+		 ],
+		 "round_killhs": [
+			1,
+			0,
+			2,
+			3,
+			4,
+			5
+		 ]
+	  },
+	  "weapons": {
+		 "weapon_0": {
+			"name": [
+			  "weapon_knife_t",
+			  "weapon_knife"
+			],
+			"paintkit": "default",
+			"type": "Knife",
+			"state": [
+			  "holstered",
+			  "active"
+			]
+		 },
+		 "weapon_1": {
+			"name": [
+			  "weapon_glock",
+			  "weapon_tec9",
+			  "weapon_revolver",
+			  "weapon_elite",
+			  "weapon_p250",
+			  "weapon_deagle",
+			  "weapon_hkp2000",
+			  "weapon_usp_silencer",
+			  "weapon_flashbang",
+			  "weapon_ump45"
+			],
+			"paintkit": [
+			  "cu_glock-liquescent",
+			  "default",
+			  "aq_forced",
+			  "cu_usp_spitfire"
+			],
+			"type": [
+			  "Pistol",
+			  "Grenade",
+			  "Submachine Gun"
+			],
+			"ammo_clip": [
+			  20,
+			  21,
+			  3,
+			  2
+			],
+			"ammo_clip_max": [
+			  20,
+			  24,
+			  8,
+			  25
+			],
+			"ammo_reserve": [
+			  120,
+			  119,
+			  1,
+			  100
+			],
+			"state": [
+			  "active",
+			  "holstered",
+			  "reloading"
+			]
+		 },
+		 "weapon_2": {
+			"name": [
+			  "weapon_c4",
+			  "weapon_ak47",
+			  "weapon_hegrenade",
+			  "weapon_nova",
+			  "weapon_sawedoff",
+			  "weapon_xm1014",
+			  "weapon_sg556",
+			  "weapon_ssg08",
+			  "weapon_mac10",
+			  "weapon_ump45",
+			  "weapon_awp",
+			  "weapon_mp9",
+			  "weapon_galilar",
+			  "weapon_mag7",
+			  "weapon_m249",
+			  "weapon_negev",
+			  "weapon_incgrenade",
+			  "weapon_flashbang",
+			  "weapon_usp_silencer"
+			],
+			"paintkit": [
+			  "default",
+			  "cu_usp_spitfire"
+			],
+			"type": [
+			  "C4",
+			  "Rifle",
+			  "Grenade",
+			  "Shotgun",
+			  "SniperRifle",
+			  "Submachine Gun",
+			  "Machine Gun",
+			  "Pistol"
+			],
+			"state": [
+			  "active",
+			  "holstered",
+			  "reloading"
+			],
+			"ammo_clip": [
+			  4,
+			  30,
+			  29,
+			  28,
+			  43,
+			  39,
+			  12
+			],
+			"ammo_clip_max": [
+			  30,
+			  8,
+			  12
+			],
+			"ammo_reserve": [
+			  90,
+			  64,
+			  29,
+			  24
+			]
+		 },
+		 "weapon_3": {
+			"name": [
+			  "weapon_ak47",
+			  "weapon_smokegrenade",
+			  "weapon_decoy",
+			  "weapon_flashbang",
+			  "weapon_molotov",
+			  "weapon_c4",
+			  "weapon_nova",
+			  "weapon_hegrenade"
+			],
+			"paintkit": "default",
+			"type": [
+			  "Rifle",
+			  "Grenade",
+			  "C4",
+			  "Shotgun"
+			],
+			"ammo_clip": [
+			  30,
+			  29,
+			  3,
+			  2
+			],
+			"ammo_clip_max": [
+			  30,
+			  8
+			],
+			"ammo_reserve": [
+			  90,
+			  85,
+			  1,
+			  26
+			],
+			"state": [
+			  "active",
+			  "holstered",
+			  "reloading"
+			]
+		 },
+		 "weapon_4": {
+			"name": [
+			  "weapon_smokegrenade",
+			  "weapon_flashbang",
+			  "weapon_c4"
+			],
+			"paintkit": "default",
+			"type": [
+			  "Grenade",
+			  "C4"
+			],
+			"ammo_reserve": [
+			  1,
+			  0
+			],
+			"state": [
+			  "holstered",
+			  "active"
+			]
+		 },
+		 "weapon_5": {
+			"name": "weapon_flashbang",
+			"paintkit": "default",
+			"type": "Grenade",
+			"ammo_reserve": 1,
+			"state": [
+			  "holstered",
+			  "active"
+			]
+		 },
+		 "weapon_6": {
+			"name": "weapon_c4",
+			"paintkit": "default",
+			"type": "C4",
+			"state": [
+			  "holstered",
+			  "active"
+			]
+		 }
+	  },
+	  "match_stats": {
+		 "kills": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		 ],
+		 "assists": [
+			0,
+			1,
+			2
+		 ],
+		 "deaths": [
+			0,
+			1,
+			2,
+			3
+		 ],
+		 "mvps": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		 ],
+		 "score": [
+			0,
+			2,
+			4,
+			6,
+			8,
+			10,
+			12,
+			14,
+			16,
+			18
+		 ]
+	  },
+	  "team": [
+		 "T",
+		 "CT"
+	  ]
+	},
+	"previously": {},
+	"added": {
+	  "player": {
+		 "weapons": {
+			"weapon_0": true,
+			"weapon_1": [
+			  true,
+			  {
+				 "ammo_clip": true,
+				 "ammo_clip_max": true
+			  }
+			],
+			"weapon_2": [
+			  true,
+			  {
+				 "ammo_clip": true,
+				 "ammo_clip_max": true,
+				 "ammo_reserve": true
+			  },
+			  {
+				 "ammo_clip": true,
+				 "ammo_clip_max": true
+			  }
+			],
+			"weapon_3": [
+			  true,
+			  {
+				 "ammo_clip": true,
+				 "ammo_clip_max": true
+			  }
+			],
+			"weapon_4": true,
+			"weapon_5": true,
+			"weapon_6": true
+		 },
+		 "team": true
+	  },
+	  "round": {
+		 "bomb": true,
+		 "win_team": true
+	  }
+	}
+ }

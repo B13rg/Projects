@@ -1,0 +1,45 @@
+/url path
+	- property
+	* optional property
+
+/ match
+	/info
+		- current map
+		- mode
+		- score
+		- round #
+		- round phase
+		- time left in phase
+		- bomb phase
+		- winning team
+	/scoreboard
+		* ct/t only
+		* type: have different types of scoreboards displayed
+	/rounds
+		- who won
+		- alive on each side
+		- total value of equip on each side at end
+		- equip value delta from beginning vs end
+/players
+	/<0-9>   #for in depth stats for each player on server, else summary
+	/ct		#info on all ct players
+	/t			#info on all t players
+		- name
+		- team name
+		- id
+		- health
+		- weapons/inventory
+			* skin
+			- ammo
+				- clip
+				- max
+				- reserve
+		- score
+		- kills
+		- assists
+		- deaths
+		- mvps
+		- team
+		- enemies flashed
+		- equipment damage
+		- adr
