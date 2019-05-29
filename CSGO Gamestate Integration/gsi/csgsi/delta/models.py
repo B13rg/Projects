@@ -17,7 +17,6 @@ def generateMatch(data):
         client_steamid = data['provider']['steamid'],
         timestamp = data['provider']['timestamp']
     )
-    thing.save()
     return thing
 
 # Create your models here.

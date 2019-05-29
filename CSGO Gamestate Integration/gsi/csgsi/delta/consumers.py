@@ -1,16 +1,24 @@
 # chat/consumers.py
 from channels.generic.websocket import WebsocketConsumer
 from channels.generic.http import AsyncHttpConsumer
+from asgiref.sync import async_to_sync
+from channels.layers import get_channel_layer
 import json
+from . import models
 
 
 class ChatConsumer(WebsocketConsumer):
     def connect(self):
+        async_to_sync(self.channel_layer.group_add)
         self.accept()
         
 
     def disconnect(self, close_code):
-        pass
+        async_to_sync(self.channel_layer.group_discard)(
+            'events',
+            self.channel_name
+        )
+        self.close()
 
     def receive(self, text_data):
         text_data_json = json.loads(text_data)
@@ -25,13 +33,13 @@ class ChatConsumer(WebsocketConsumer):
         self.sent(text_data="CT: " + str(summary.score_ct) + "\tT: " + str(summary.score_t))
 
 class Ingest(AsyncHttpConsumer):
-    async def handle(self, body):
+    def handle(self, body):
         print(self.scope['method'])
-        #print(body)
-        data = json.loads(body.decode('utf-8'))
-        
-        print("item:"+str(data[platform][timestamp]))
-        #summary = generateMatch(data)
+        thing = body.decode('utf-8')
+        data = json.loads(thing)
+        print("item2:"+str(data['provider']['timestamp']))
+        models.generateMatch(data)
+        print("item3:"+str(data['provider']['timestamp']))
         #self.channel_layer.send(
         #    "process_Match",summary
         #)

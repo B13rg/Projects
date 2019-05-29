@@ -12,11 +12,11 @@ application = ProtocolTypeRouter({
             delta.routing.websocket_urlpatterns
         )
     ),
-    'http': AuthMiddlewareStack(
-        URLRouter(
-            delta.routing.http_urlpatterns
-        )
-    ),
+    #'http': AuthMiddlewareStack(
+    #    URLRouter(
+    #        delta.routing.http_urlpatterns
+    #    )
+    #),
 
     "channel": ChannelNameRouter({
         "process_Match": ChatConsumer
