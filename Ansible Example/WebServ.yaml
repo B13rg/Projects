@@ -1,0 +1,30 @@
+---
+- name: Setup and serve a single file over apache
+  hosts: alpiney
+  vars:
+    template_run_date: "{{ ansible_facts['date_time']['iso8601_micro'] }}"
+  tasks:
+  - name: Install apache
+    apk:
+      name: apache2
+      state: latest
+  - name: Insert index page
+    template:
+      src: index.html
+      dest: /var/www/localhost/htdocs/index.html
+    notify:
+    - restart apache
+  - name: Insert template_run_date variable
+    replace:
+      path: /var/www/localhost/htdocs/index.html
+      regexp: '##repl##'
+      replace: 'template_run_date var: {{ template_run_date }}'
+  - name: Ensure apache is running
+    service:
+      name: apache2
+      state: started
+  handlers:
+    - name: restart apache
+      service:
+        name: apache2
+        state: restarted

@@ -1,0 +1,135 @@
+Parent - Child
+Parent = Renameing/Licensing/equivilent
+
+CP/M 1.0	1973
+CP/M 1.0 - CP/M 1.4	
+CP/M 1.4 - 2.0	1979
+CP/M 2.0 - CP/M 2.2
+CP/M 2.2 - CP/M 3.0	1982 
+CP/M 3.0 = CP/M 80
+CP/M 80 (CP/M 2.2) - QDOS
+CP/M 80 - CP/M 86 1.0	April 1982
+CP/M 86 1.0 - CP/M 86 1.1	March 1983
+
+
+
+CP/M 86 1.1 - Concurrent DOS 3.1	March 1984
+Concurrent DOS 3.1 - Concurrent DOS 4.1	
+Concurrent DOS 4.1 - Concurrent DOS 5.0
+Concurrent DOS 4.1 - DOS Plus 1.1	1985
+DOS Plus 1.1 - DOS Plus 2.1	1985
+Concurrent DOS 5.0 -  DOS Plus 2.1	1985
+Concurrent DOS 5.0 - Concurrent DOS 6.0
+DOS Plus 2.1 - DR DOS 3.31	May 1988
+Concurrent DOS 6.0 - DR DOS 3.31 May 1988
+DR DOS 3.31 = PC-DOS 3.31
+DR DOS 3.31 - DR DOS 3.32	August 1988
+DR DOS 3.32 - DR DOS 3.33	September 1988
+DR DOS 3.33 - DR DOS 3.34	
+DR DOS 3.34 - DR DOS 3.35	October 1988
+DR DOS 3.35 - DR DOS 3.40	January 1989
+DR DOS 3.40 - DR DOS 3.41	June 1989
+DR DOS 3.41 = EZ-DOS 3.41
+DR DOS 3.41 - DR DOS 5.0	1990
+DR DOS 5.0 - DR DOS 5.11	1991
+DR DOS 5.11 - DR DOS 6.0	September 1991
+DR DOS 6.0 - DR DOS 6.0/V (Japanese DOS/V compatible)	July 1992
+---Digital Research bought by Novell---
+DR DOS 6.0 - NetWare PalmDOS 1
+DR DOS 6.0 - DR DOS 7.0 (Renamed Novell DOS 7, NWDOS)	December 1993
+Novell Dos 7 - Novell DOS 7.10
+Novell DOS 7.10 - Novell DOS 7.11 January 1995	
+Novell DOS 7.11 - Novell DOS 7.15.2	January 1996 ***
+
+---DR DOS sold to Caldera---
+Novell DOS 7.10 = OpenDOS 7.01	February 1997
+OpenDOS 7.01 - Caldera DR-OpenDOS 7.02	December 1997
+Caldera DR-OpenDOS 7.02 - Caldera DR-DOS 7.02 (Closed Source Rerelease)	March 1998
+Caldera DR-DOS 7.02 - DR-DOS 7.03	January 1999
+DR-DOS 7.03 = (Lineo) Caldera DR-DOS	June/September 1999
+DR-DOS 7.03 - OEM DR-DOS 7.04	August 1999
+OEM DR-DOS 7.04 - OEM DR-DOS 7.05 (Branded Caldera DR-DOS)	November 1999
+OEM DR-DOS 7.05 - DR-DOS 7.06	December 1999
+DR-DOS - 7.06 - DR-DOS 7.07
+DR-DOS 7.03 - (new) DR-DOS 8.0	March 2004
+DR-DOS 8.0 - DR-DOS 8.1	(Withdrawn for GPL violations)	October 2005
+OpenDOS 7.01 - DR-DOS 8.1	October 2005
+OpenDOS 7.01 - DR-DOS 7.01.01 (https://web.archive.org/web/20160627184047/http://www.drdosprojects.de/index.cgi/download.htm)	July 2002
+DR-DOS 7.01.01 - DR-DOS 7.01.02	July 2002
+DR-DOS 7.01.02 - DR-DOS 7.01.03	January 2003
+DR-DOS 7.01.03 - DR-DOS 7.01.04	February 2003
+DR-DOS 7.01.04 - DR-DOS 7.01.05	February 2003
+DR-DOS 7.01.05 - DR-DOS 7.01.06	Decmber 2003
+DR-DOS 7.01.06 - DR-DOS 7.01.07	March 2005
+DR-DOS 7.01.07 0 DR-DOS 7.01.08 WIP	July 2011
+
+
+QDOS - 86-DOS	August 1980
+86-DOS 0.10 - MS-DOS 1.0	August 1981
+MS-DOS 1.14 = PC-DOS 1.0	August 1981
+PC DOS 1.0- PC-DOS 1.10	May 1982
+PC DOS 1.10 - PC DOS 2.0	March 1983
+PC DOS 2.0 - PC DOS 2.1	October 1983
+PC DOS 2.1 - PC DOS 3.0	August 1984
+PC DOS 3.0 - PC DOS 3.1	March 1985
+PC DOS 3.1 - PC DOS 3.2	April 1986
+PC DOS 3.2 - PC DOS 3.3	April 1987
+PC DOS 3.3 - PC DOS 3.4
+PC DOS 3.3 - PC DOS 4.0	July 1988
+PC DOS 3.4 = PC DOS 4.0
+PC DOS 4.0 - PC DOS 4.01	September 1988
+PC DOS 4.01 - PC DOS 5.0	June 1991
+PC DOS 5.0 = OS/2 2.0 (pc dos was integrated into OS/2)
+PC DOS 5.0 - PC DOS 6.1	June 1993
+PC DOS 5.0 - MS-DOS 6.0	March 1993
+PC DOS 6.1 - PC DOS 6.3	December 1993
+PC DOS 6.3 - PC DOS 7.0	April 1995
+PC DOS 7.0 - PC DOS 2000	May 1998
+PC DOS 2000 - PC DOS 7.1.1.10 August 2000
+
+MS-DOS 1.0 - MS-DOS 1.10
+MS-DOS 1.10 - MS-DOS 1.11
+MS-DOS 1.11 - MS-DOS 1.14
+MS-DOS 1.14 - MS-DOS 1.24
+MS-DOS 1.24 = PC DOS 1.1
+MS-DOS 1.24 - MS-DOS 1.25 (Equiv PC-DOS 1.10)	May 1982
+MS-DOS 1.25 = non-IBM OEM versions
+MS-DOS 1.25 = SCP MS-DOS 1.25
+MS-DOS 1.25 = Compaq-DOS 1.12	November 1982
+MS-DOS 1.25 = Z-DOS	September 1982
+MS-DOS 1.25 - MS-DOS 2.0	March 1983
+MS-DOS 2.0 - MS-DOS 2.05
+MS-DOS 2.05 - MS-DOS 2.1	October 1983
+MS-DOS 2.1 - MS-DOS 2.11	March 1984
+MS-DOS 2.11 = Altos MS-DOS 2.11
+MS-DOS 2.11 = Toshiba MS-DOS 2.11
+MS-DOS 2.11 = TeleVideo PC DOS 2.11
+MS-DOS 2.11 - MS-DOS 2.2
+MS-DOS 2.2 - MS-DOS 2.25
+MS-DOS 2.25 - MS-DOS 3.0	August 1984
+MS-DOS 3.0 - MS-DOS 3.1	November 1984
+MS-DOS 3.1 - MS-DOS 3.2	January 1986
+MS-DOS 3.2 - MS-DOS 3.21
+MS-DOS 3.21 - MS-DOS 3.22
+MS-DOS 3.22 - MS-DOS 3.25
+MS-DOS 3.25 - MS-DOS 3.3	August 1987
+MS-DOS 3.3 - MS-DOS 3.3a
+MS-DOS 3.3a - MS-DOS 3.31 (Compaq Only)	November 1987
+MS-DOS 3.2 - MS-DOS 4.0 (Multitasking)	June 1988
+MS-DOS 4.0 - MS-DOS 4.1
+MS-DOS 3.3a - MS-DOS 4.00 (IBM developed)	June 1988
+MS-DOS 4.00 - MS-DOS 4.01	November 1988
+MS-DOS 4.01 - MS-DOS 4.01a
+MS-DOS 4.01a - MS-DOS 5.0	June 1991
+MS-DOS 5.0 = AST Premium Exec DOS 5.0
+MS-DOS 5.0 - MS-DOS 5.0a (IBM and Microsoft versions diverge)
+MS-DOS 5.0a - MS-DOS 5.50
+MS-DOS 5.50 - MS-DOS 6.0	March 1993
+MS-DOS 6.0 - MS-DOS 6.2	November 1993
+MS-DOS 6.2 - MS-DOS 6.21	February 1994
+MS-DOS 6.21 - MS-DOS 6.22	June 1994
+MS-DOS 6.22 - MS-DOS 7.0 (Windows 95)	August 1995
+MS-DOS 7.00 - MS-DOS 7.1 (Windows 95 Release 2)	August 1996
+MS-DOS 7.1 (Windows 98)	June 1998
+MS-DOS 7.1 (Windows 98 SE)	May 1999
+MS-DOS 7.10 - MS-DOS 8.0 (Windows ME)	September 2000

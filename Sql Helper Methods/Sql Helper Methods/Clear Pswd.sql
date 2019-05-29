@@ -1,0 +1,1 @@
+UPDATE userod SET PASSWORD='';
