@@ -19,7 +19,7 @@ application = ProtocolTypeRouter({
     #),
 
     "channel": ChannelNameRouter({
-        "process_Match": ChatConsumer
+        "chat": delta.consumers.ChatConsumer
     })
 })
 

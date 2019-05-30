@@ -3,7 +3,8 @@ import json
 from django.utils.safestring import mark_safe
 from django.http import HttpRequest, HttpResponse
 
-from django_redis import get_redis_connection
+from channels.layers import get_channel_layer
+from asgiref.sync import async_to_sync
 
 from . import models
 
@@ -17,10 +18,19 @@ def index(request):
         print(str(summary.timestamp) + "\t" + summary.map_name + "\t" + summary.mode + "\t" + str(summary.version))
         print("CT: " + str(summary.score_ct) + "\tT: " + str(summary.score_t))
 
-        con = get_redis_connection("default")
-        con.delete('map')
-        con.set('map', summary)
-        con.get('map')
+        sock = get_channel_layer()
+        sock.group_send("chat",
+            {
+                "type": "update.map",
+                "Timestamp": summary.timestamp,
+                "Map": summary.map_name,
+                "Mode": summary.mode,
+                "Version": summary.version,
+                "scoreCT": summary.score_ct,
+                "scoreT": summary.score_t,
+            }
+        )
+        print("sent")
         return HttpResponse()
     return render(request, 'delta/index.html', {})
 

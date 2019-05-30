@@ -9,13 +9,13 @@ from . import models
 
 class ChatConsumer(WebsocketConsumer):
     def connect(self):
-        async_to_sync(self.channel_layer.group_add)
+        async_to_sync(self.channel_layer.group_add)("map", self.channel_name)
         self.accept()
         
 
     def disconnect(self, close_code):
         async_to_sync(self.channel_layer.group_discard)(
-            'events',
+            'map',
             self.channel_name
         )
         self.close()
@@ -27,6 +27,10 @@ class ChatConsumer(WebsocketConsumer):
         self.send(text_data=json.dumps({
             'message': message
         }))
+
+    def update_map(self, event):
+        print("Updateing map data...")
+        self.send(text_data=event['map'])
 
     def process_Match(self, message):
         self.send(text_data=str(summary.timestamp) + "\t" + summary.map_name + "\t" + summary.mode + "\t" + str(summary.version))
