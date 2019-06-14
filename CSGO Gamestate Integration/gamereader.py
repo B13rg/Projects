@@ -14,7 +14,6 @@ class reqHandler(BaseHTTPRequestHandler):
 	def do_POST(self):
 		content_len = int(self.headers['Content-Length'])
 		body = self.rfile.read(content_len)
-		#print("recieved data from csgo")
 		dataQ.put(json.loads(body))
 
 def startServer():
@@ -22,32 +21,61 @@ def startServer():
 	httpd = HTTPServer(serverAddress, reqHandler)
 	httpd.serve_forever()
 
-def generateMatch(data):
-	match_id = "2",
-	mode = data['map']['mode'],
-	map_name = data['map']['name'],
-	phase = data['map']['phase'],
-	consec_loss_t = data['map']['team_t']['consecutive_round_losses'],
-	consec_loss_ct = data['map']['team_ct']['consecutive_round_losses'],
-	score_ct = data['map']['team_ct']['score'],
-	score_t = data['map']['team_t']['score'],
-	timeouts_ct = data['map']['team_ct']['timeouts_remaining'],
-	timeouts_t = data['map']['team_t']['timeouts_remaining'],
-	game = data['provider']['name'],
-	version = data['provider']['version'],
-	client_steamid = data['provider']['steamid'],
-	timestamp = data['provider']['timestamp']
+def generateMatchObj(inputData):
+	data = {}
+	data['mode'] = inputData['map']['mode']
+	data['map_name'] = inputData['map']['name']
+	data['phase'] = inputData['map']['phase']
+	data['consec_loss_t'] = inputData['map']['team_t']['consecutive_round_losses']
+	data['consec_loss_ct'] = inputData['map']['team_ct']['consecutive_round_losses']
+	data['score_ct'] = inputData['map']['team_ct']['score']
+	data['score_t'] = inputData['map']['team_t']['score']
+	data['timeouts_ct'] = inputData['map']['team_ct']['timeouts_remaining']
+	data['timeouts_t'] = inputData['map']['team_t']['timeouts_remaining']
+	data['game'] = inputData['provider']['name']
+	data['version'] = inputData['provider']['version']
+	data['client_steamid'] = inputData['provider']['steamid']
+	data['timestamp'] = inputData['provider']['timestamp']
+	return data
+
+def generateRoundObj(inputData):
+	data = {}
+	data['roundNum'] = inputData['map']['round']
+	data['phase'] = inputData['phase_countdowns']['phase']
+	data['phaseTime'] = inputData['phase_countdowns']['phase_ends_in']
+	return data
+
+def generatePlayerObj(inputData):
+	data = {}
+	data['team'] = inputData['player']['team']
+	data['name'] = inputData['player']['name']
+
+	data['kills'] = inputData['player']['match_stats']['kills']
+	data['assists'] = inputData['player']['match_stats']['assists']
+	data['deaths'] = inputData['player']['match_stats']['deaths']
+	data['mvps'] = inputData['player']['match_stats']['mvps']
+	data['score'] = inputData['player']['match_stats']['score']
+	
+	data['health'] = inputData['player']['state']['health']
+	data['armor'] = inputData['player']['state']['armor']
+	data['helmet'] = inputData['player']['state']['helmet']
+	data['money'] = inputData['player']['state']['money']
+	data['round_kills'] = inputData['player']['state']['round_kills']
+	data['round_killhs'] = inputData['player']['state']['round_killhs']
+	data['round_totaldmg'] = inputData['player']['state']['round_totaldmg']
+	data['equip_value'] = inputData['player']['state']['equip_value']
+	data['position'] = inputData['player']['position']
+	return data
 
 async def time(websocket, path):
 	while True:
 		item = dataQ.get()
-		print("Got item from queue")
-		print(item['map']['team_ct']['score'])
-		ctscore=item['map']['team_ct']['score']
-		tscore=item['map']['team_t']['score']
-		await websocket.send("CT: "+str(ctscore)+" T: "+str(tscore))
+		gameDesc = {}
+		gameDesc['matchItem'] = generateMatchObj(item)
+		gameDesc['roundItem'] = generateRoundObj(item)
+		gameDesc['playerItem'] = generatePlayerObj(item)
+		await websocket.send(json.dumps(gameDesc))
 		dataQ.task_done()
-		print("item sent over websocket")
 
 serveThread = threading.Thread(target=startServer,name="server")
 serveThread.start()
