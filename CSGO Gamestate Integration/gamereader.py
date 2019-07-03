@@ -10,6 +10,11 @@ import queue
 PORT = 8000
 dataQ = queue.Queue()
 
+NOINSTANCE = True
+dummyData = None
+with open('bombPlant.json') as json_file:  
+    dummyData = json.load(json_file)
+
 class reqHandler(BaseHTTPRequestHandler):
 	def do_POST(self):
 		content_len = int(self.headers['Content-Length'])
@@ -67,19 +72,28 @@ def generatePlayerObj(inputData):
 	data['position'] = inputData['player']['position']
 	return data
 
-async def time(websocket, path):
+async def sendLoop(websocket, path):
+	i=0
 	while True:
-		item = dataQ.get()
+		item = None
+		if NOINSTANCE:
+			item = dummyData
+		else:
+			item = dataQ.get()
 		gameDesc = {}
 		gameDesc['matchItem'] = generateMatchObj(item)
 		gameDesc['roundItem'] = generateRoundObj(item)
 		gameDesc['playerItem'] = generatePlayerObj(item)
+		gameDesc['matchItem']['timestamp'] = i
+		i=i+1
 		await websocket.send(json.dumps(gameDesc))
-		dataQ.task_done()
+		if not NOINSTANCE:
+			dataQ.task_done()
+		time.sleep(0.2)
 
 serveThread = threading.Thread(target=startServer,name="server")
 serveThread.start()
 
-start_server = websockets.serve(time, '127.0.0.1', 5678)
+start_server = websockets.serve(sendLoop, '127.0.0.1', 5678)
 asyncio.get_event_loop().run_until_complete(start_server)
 asyncio.get_event_loop().run_forever()
