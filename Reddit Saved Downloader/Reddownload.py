@@ -1,10 +1,7 @@
 #import imgur_downloader
 import ComVars
 import praw
-import os
-import urllib.request
-import time
-import sqlite3
+import os, urllib.request, time, sqlite3, ssl, re
 
 from praw.models.reddit.submission import Submission
 from praw.models.reddit.comment import Comment
@@ -44,10 +41,19 @@ def CheckPostDB(db, post):
 
 def AddPostDB(db, post):
 	cursor = db.cursor()
-	cursor.execuste('''
+	nsfw=0
+	if post.over_18:
+		nsfw=1
+	cursor.execute('''
 		INSERT INTO saved(permalink, title, url, subreddit, nsfw)
-		VALUES(?, ?, ?, ?, ?)''', (post.permalink, post.title, post.url, post.subreddit, post.over_18))
+		VALUES(?, ?, ?, ?, ?)''', 
+		(post.permalink, str(post.title), str(post.url), str(post.subreddit), int(nsfw))
+	)
 	db.commit()	
+
+def GetPostFilename(post):
+	# Remove illegal characters
+	return re.sub("<|>|\||:|\"|/|?|*|\\"," ", post.title+" "+post.url.split("/")[-1].split("?")[0])
 
 dbConn=ConnectToDatabase()
 redditor = ConnectToReddit()
@@ -71,14 +77,17 @@ for post in redditor.saved(limit=None):
 		else:
 			newpath = newpath + 'subreddits/'
 		newpath = newpath+sub
-		newfilename = newpath+"/"+post.title+post.url.split("/")[-1].split("?")[0]
+		newfilename = newpath + "/" + GetPostFilename(post)
 		if not os.path.exists(newpath):
 			os.makedirs(newpath)
 		elif os.path.exists(newfilename):
 			continue
-		urllib.request.urlretrieve(post.url, newfilename)
+		g = urllib.request.urlopen(post.url,context=ssl._create_unverified_context())
+		with open(newfilename,'b+w') as f:
+			f.write(g.read())
 		AddPostDB(dbConn,post)
 		print("Complete")
-	except:
+	except Exception as e:
+		print("Error downloading file: "+str(e))
 		continue
 print("Download Complete")
