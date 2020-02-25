@@ -1,0 +1,12 @@
+gnuclad-0.2.4/*
+
+Makefile
+*/Makefile
+
+config.h
+config.log
+config.status
+
+AAA_USEFUL
+
+*.o
