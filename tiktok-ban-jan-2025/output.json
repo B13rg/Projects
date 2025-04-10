@@ -1,0 +1,116 @@
+{
+    "status_code": 0,
+    "status_message": "Success.",
+    "data": {
+        "hostname": "tiktok.com",
+        "domain": {
+            "id": 2736633,
+            "label": "tiktok.com",
+            "category": {
+                "id": 24,
+                "tag": "social-media",
+                "label": "Social Media"
+            }
+        },
+        "application": {
+            "id": 10302,
+            "tag": "tiktok",
+            "label": "TikTok",
+            "description": "TikTok is an iOS and Android social media video app for creating and sharing short lip-sync, comedy, and talent videos.",
+            "home_page": {
+                "url": "https://www.tiktok.com",
+                "text": "TikTok"
+            },
+            "category": {
+                "id": 24,
+                "tag": "social-media",
+                "label": "Social Media"
+            },
+            "favicon": "https://static.netify.ai/logos/t/i/k/gvxgbx/favicon.png?v=3",
+            "icon": "https://static.netify.ai/logos/t/i/k/gvxgbx/icon.png?v=3",
+            "logo": "https://static.netify.ai/logos/t/i/k/gvxgbx/logo.png?v=3",
+            "favicon_source": "app",
+            "icon_source": "app",
+            "logo_source": "app"
+        },
+        "platform": {
+            "id": 10263,
+            "tag": "amazon-cloudfront",
+            "label": "Amazon CloudFront",
+            "description": "Amazon CloudFront is a content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers.",
+            "home_page": {
+                "url": "https://aws.amazon.com/cloudfront/",
+                "text": "Amazon CloudFront"
+            },
+            "category": {
+                "id": 35,
+                "tag": "cdn",
+                "label": "CDN"
+            },
+            "favicon": "https://static.netify.ai/logos/a/m/a/nznmba-pybhqsebag/favicon.ico?v=4",
+            "icon": "https://static.netify.ai/logos/a/m/a/nznmba-pybhqsebag/icon.png?v=4",
+            "logo": "https://static.netify.ai/logos/a/m/a/nznmba-pybhqsebag/logo.png?v=4",
+            "favicon_source": "app",
+            "icon_source": "app",
+            "logo_source": "app"
+        },
+        "network": {
+            "id": 10263,
+            "tag": "amazon-cloudfront",
+            "label": "Amazon CloudFront",
+            "description": "Amazon CloudFront is a content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers.",
+            "home_page": {
+                "url": "https://aws.amazon.com/cloudfront/",
+                "text": "Amazon CloudFront"
+            },
+            "category": {
+                "id": 35,
+                "tag": "cdn",
+                "label": "CDN"
+            },
+            "favicon": "https://static.netify.ai/logos/a/m/a/nznmba-pybhqsebag/favicon.ico?v=4",
+            "icon": "https://static.netify.ai/logos/a/m/a/nznmba-pybhqsebag/icon.png?v=4",
+            "logo": "https://static.netify.ai/logos/a/m/a/nznmba-pybhqsebag/logo.png?v=4",
+            "favicon_source": "app",
+            "icon_source": "app",
+            "logo_source": "app"
+        },
+        "asn": {
+            "id": 16509,
+            "tag": "AS16509",
+            "label": "Amazon.com",
+            "entity": {
+                "id": 10091,
+                "tag": "amazon-aws",
+                "label": "Amazon AWS",
+                "full_label": "Amazon Web Services",
+                "description": "Amazon Web Services (AWS) provides scalable cloud computing and infrastructure.  The company offers virtual computing, online storage, cloud-based databases, and more.",
+                "home_page": {
+                    "url": "https://aws.amazon.com",
+                    "text": "Amazon AWS"
+                },
+                "category": {
+                    "id": 36,
+                    "tag": "hosting",
+                    "label": "Hosting"
+                },
+                "favicon": "https://static.netify.ai/logos/a/m/a/nznmba-njf/favicon.ico?v=7",
+                "icon": "https://static.netify.ai/logos/a/m/a/nznmba-njf/icon.png?v=7",
+                "logo": "https://static.netify.ai/logos/a/m/a/nznmba-njf/logo.png?v=7",
+                "favicon_source": "app",
+                "icon_source": "app",
+                "logo_source": "app"
+            }
+        },
+        "ips": [
+            "18.66.112.28",
+            "18.66.112.57",
+            "18.66.112.109",
+            "18.66.112.128",
+            "18.66.161.5",
+            "18.66.161.16",
+            "18.66.161.114",
+            "18.66.161.117"
+        ]
+    }
+}

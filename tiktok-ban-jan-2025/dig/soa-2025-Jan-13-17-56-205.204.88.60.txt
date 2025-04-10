@@ -1,0 +1,26 @@
+api2-16-h2.musical.ly.	7179	IN	CNAME	api2-16-h2.musical.ly.edgekey.net.
+api2-16-h2.musical.ly.edgekey.net. 713 IN CNAME	e26771.a.akamaiedge.net.
+api21-h2.tiktokv.com.	7049	IN	CNAME	bytedance.map.fastly.net.
+api2-21-h2.musical.ly.	6598	IN	CNAME	bytedance.map.fastly.net.
+api2.musical.ly.	7189	IN	CNAME	api2.musical.ly.edgekey.net.
+api2.musical.ly.edgekey.net. 6047 IN	CNAME	e26771.a.akamaiedge.net.
+api-h2.tiktokv.com.	219	IN	CNAME	api-h2.tiktokv.com.ttdns2.com.
+api-h2.tiktokv.com.ttdns2.com. 10 IN	CNAME	api-h2.tiktokv.com.edgekey.net.
+api-h2.tiktokv.com.edgekey.net.	1442 IN	CNAME	e28622.b.akamaiedge.net.
+api.tiktokv.com.	749	IN	CNAME	api.tiktokv.com.ttdns2.com.
+api.tiktokv.com.ttdns2.com. 54	IN	CNAME	api.tiktokv.com.edgekey.net.
+api.tiktokv.com.edgekey.net. 21566 IN	CNAME	e28622.a.akamaiedge.net.
+bytecdn.cn.		574	IN	SOA	vip3.alidns.com. hostmaster.hichina.com. 2025011007 3600 1200 86400 600
+byted.org.		574	IN	SOA	vip3.alidns.com. hostmaster.hichina.com. 2025010607 3600 1200 86400 600
+byteoversea.com.	5593	IN	SOA	a9-66.akam.net. hostmaster.akamai.com. 1564470125 43200 7200 604800 7200
+ibytedtos.com.		5593	IN	SOA	a9-66.akam.net. hostmaster.akamai.com. 1564167045 43200 7200 604800 7200
+ibyteimg.com.		874	IN	SOA	ns-810.awsdns-37.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+log2.musical.ly.	206	IN	CNAME	log2.musical.ly.edgesuite.net.
+log2.musical.ly.edgesuite.net. 15756 IN	CNAME	a2047.r.akamai.net.
+log.tiktokv.com.	52	IN	CNAME	log.tiktokv.com.edgesuite.net.
+log.tiktokv.com.edgesuite.net. 7772 IN	CNAME	a2047.r.akamai.net.
+mon.musical.ly.		238	IN	CNAME	mon.musical.ly.edgesuite.net.
+mon.musical.ly.edgesuite.net. 15864 IN	CNAME	a2047.r.akamai.net.
+m.tiktok.com.		572	IN	CNAME	m.tiktok.com.edgesuite.net.
+m.tiktok.com.edgesuite.net. 10004 IN	CNAME	a2047.r.akamai.net.
+muscdn.com.		293	IN	SOA	ns-1336.awsdns-39.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400

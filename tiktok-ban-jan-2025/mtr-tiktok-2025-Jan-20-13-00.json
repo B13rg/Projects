@@ -1,0 +1,3184 @@
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "api2-16-h2.musical.ly",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.275,
+                "Avg": 0.33,
+                "Best": 0.275,
+                "Wrst": 0.424,
+                "StDev": 0.038
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 1.923,
+                "Avg": 1.304,
+                "Best": 0.645,
+                "Wrst": 2.309,
+                "StDev": 0.566
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.194",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.371,
+                "Avg": 10.773,
+                "Best": 8.474,
+                "Wrst": 16.628,
+                "StDev": 2.247
+            },
+            {
+                "count": 4,
+                "host": "po-321-369-rur901.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 9.97,
+                "Avg": 10.234,
+                "Best": 4.978,
+                "Wrst": 13.189,
+                "StDev": 2.295
+            },
+            {
+                "count": 5,
+                "host": "po-2-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.597,
+                "Avg": 10.308,
+                "Best": 4.993,
+                "Wrst": 15.58,
+                "StDev": 3.301
+            },
+            {
+                "count": 6,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.514,
+                "Avg": 10.782,
+                "Best": 7.771,
+                "Wrst": 12.996,
+                "StDev": 1.372
+            },
+            {
+                "count": 7,
+                "host": "be-304-arsc1.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 13.806,
+                "Avg": 11.548,
+                "Best": 8.015,
+                "Wrst": 13.806,
+                "StDev": 1.829
+            },
+            {
+                "count": 8,
+                "host": "c-50-175-47-142.unallocated.comcastbusiness.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 15.967,
+                "Avg": 28.442,
+                "Best": 11.601,
+                "Wrst": 72.733,
+                "StDev": 24.183
+            },
+            {
+                "count": 9,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 10,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 11,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 12,
+                "host": "a23-46-228-168.deploy.static.akamaitechnologies.com",
+                "ASN": "AS20940",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.926,
+                "Avg": 11.02,
+                "Best": 5.97,
+                "Wrst": 14.435,
+                "StDev": 2.626
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "api21-h2.tiktokv.com",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.32,
+                "Avg": 0.33,
+                "Best": 0.299,
+                "Wrst": 0.376,
+                "StDev": 0.027
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.878,
+                "Avg": 1.182,
+                "Best": 0.84,
+                "Wrst": 2.041,
+                "StDev": 0.356
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.194",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.331,
+                "Avg": 10.076,
+                "Best": 6.039,
+                "Wrst": 12.855,
+                "StDev": 2.31
+            },
+            {
+                "count": 4,
+                "host": "po-321-369-rur901.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 6.344,
+                "Avg": 9.763,
+                "Best": 6.344,
+                "Wrst": 13.211,
+                "StDev": 2.089
+            },
+            {
+                "count": 5,
+                "host": "po-2-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.806,
+                "Avg": 11.559,
+                "Best": 9.923,
+                "Wrst": 13.715,
+                "StDev": 1.173
+            },
+            {
+                "count": 6,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 4.812,
+                "Avg": 10.489,
+                "Best": 4.812,
+                "Wrst": 12.46,
+                "StDev": 2.226
+            },
+            {
+                "count": 7,
+                "host": "be-304-arsc1.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 13.39,
+                "Avg": 11.645,
+                "Best": 5.554,
+                "Wrst": 14.668,
+                "StDev": 2.636
+            },
+            {
+                "count": 8,
+                "host": "ae13.edge6.sea1.sp.lumen.tech",
+                "ASN": "AS3356",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.605,
+                "Avg": 12.685,
+                "Best": 7.876,
+                "Wrst": 30.648,
+                "StDev": 6.61
+            },
+            {
+                "count": 9,
+                "host": "ae2.3602.edge1.SanJose1.net.lumen.tech",
+                "ASN": "AS3356",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 28.521,
+                "Avg": 30.203,
+                "Best": 26.86,
+                "Wrst": 34.534,
+                "StDev": 2.325
+            },
+            {
+                "count": 10,
+                "host": "4.79.54.178",
+                "ASN": "AS3356",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 30.747,
+                "Avg": 29.261,
+                "Best": 27.3,
+                "Wrst": 31.629,
+                "StDev": 1.379
+            },
+            {
+                "count": 11,
+                "host": "151.101.202.73",
+                "ASN": "AS54113",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 29.699,
+                "Avg": 28.7,
+                "Best": 25.074,
+                "Wrst": 31.178,
+                "StDev": 1.702
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "api2-21-h2.musical.ly",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.614,
+                "Avg": 0.352,
+                "Best": 0.286,
+                "Wrst": 0.614,
+                "StDev": 0.094
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 1.255,
+                "Avg": 1.317,
+                "Best": 0.557,
+                "Wrst": 3.193,
+                "StDev": 0.714
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.194",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.483,
+                "Avg": 11.779,
+                "Best": 8.714,
+                "Wrst": 16.621,
+                "StDev": 2.483
+            },
+            {
+                "count": 4,
+                "host": "po-321-369-rur901.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 9.811,
+                "Avg": 10.34,
+                "Best": 5.572,
+                "Wrst": 12.988,
+                "StDev": 2.472
+            },
+            {
+                "count": 5,
+                "host": "po-2-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.844,
+                "Avg": 11.363,
+                "Best": 6.096,
+                "Wrst": 18.474,
+                "StDev": 3.294
+            },
+            {
+                "count": 6,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.276,
+                "Avg": 9.516,
+                "Best": 5.026,
+                "Wrst": 11.622,
+                "StDev": 1.948
+            },
+            {
+                "count": 7,
+                "host": "be-304-arsc1.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 6.016,
+                "Avg": 11.432,
+                "Best": 6.016,
+                "Wrst": 13.435,
+                "StDev": 2.447
+            },
+            {
+                "count": 8,
+                "host": "ae13.edge6.sea1.sp.lumen.tech",
+                "ASN": "AS3356",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 40.006,
+                "Avg": 16.795,
+                "Best": 8.138,
+                "Wrst": 40.006,
+                "StDev": 9.42
+            },
+            {
+                "count": 9,
+                "host": "ae2.3602.edge1.SanJose1.net.lumen.tech",
+                "ASN": "AS3356",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 27.349,
+                "Avg": 31.153,
+                "Best": 25.934,
+                "Wrst": 45.104,
+                "StDev": 6.031
+            },
+            {
+                "count": 10,
+                "host": "4.79.54.178",
+                "ASN": "AS3356",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 27.894,
+                "Avg": 29.142,
+                "Best": 27.719,
+                "Wrst": 31.812,
+                "StDev": 1.635
+            },
+            {
+                "count": 11,
+                "host": "151.101.202.73",
+                "ASN": "AS54113",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 30.613,
+                "Avg": 29.556,
+                "Best": 27.337,
+                "Wrst": 31.091,
+                "StDev": 1.399
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "api2.musical.ly",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.437,
+                "Avg": 0.347,
+                "Best": 0.287,
+                "Wrst": 0.437,
+                "StDev": 0.045
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 1.58,
+                "Avg": 1.213,
+                "Best": 0.572,
+                "Wrst": 2.682,
+                "StDev": 0.666
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.194",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 5.152,
+                "Avg": 11.192,
+                "Best": 5.152,
+                "Wrst": 14.18,
+                "StDev": 2.493
+            },
+            {
+                "count": 4,
+                "host": "po-321-369-rur901.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.075,
+                "Avg": 10.753,
+                "Best": 8.514,
+                "Wrst": 12.673,
+                "StDev": 1.413
+            },
+            {
+                "count": 5,
+                "host": "po-2-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.955,
+                "Avg": 10.976,
+                "Best": 8.293,
+                "Wrst": 12.955,
+                "StDev": 1.555
+            },
+            {
+                "count": 6,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.157,
+                "Avg": 10.751,
+                "Best": 8.793,
+                "Wrst": 13.634,
+                "StDev": 1.543
+            },
+            {
+                "count": 7,
+                "host": "be-304-arsc1.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 15.079,
+                "Avg": 12.55,
+                "Best": 9.583,
+                "Wrst": 15.079,
+                "StDev": 1.706
+            },
+            {
+                "count": 8,
+                "host": "c-50-175-47-142.unallocated.comcastbusiness.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.993,
+                "Avg": 12.0,
+                "Best": 6.061,
+                "Wrst": 22.5,
+                "StDev": 4.499
+            },
+            {
+                "count": 9,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 10,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 11,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 12,
+                "host": "a23-46-228-176.deploy.static.akamaitechnologies.com",
+                "ASN": "AS20940",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 5.53,
+                "Avg": 12.037,
+                "Best": 5.53,
+                "Wrst": 17.26,
+                "StDev": 3.141
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "api-h2.tiktokv.com",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.448,
+                "Avg": 0.444,
+                "Best": 0.303,
+                "Wrst": 0.929,
+                "StDev": 0.193
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 1.027,
+                "Avg": 1.213,
+                "Best": 0.735,
+                "Wrst": 1.805,
+                "StDev": 0.358
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.195",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.726,
+                "Avg": 10.452,
+                "Best": 7.643,
+                "Wrst": 13.36,
+                "StDev": 1.945
+            },
+            {
+                "count": 4,
+                "host": "po-321-370-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 6.844,
+                "Avg": 10.584,
+                "Best": 6.844,
+                "Wrst": 12.926,
+                "StDev": 1.97
+            },
+            {
+                "count": 5,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.984,
+                "Avg": 10.712,
+                "Best": 7.286,
+                "Wrst": 13.563,
+                "StDev": 1.919
+            },
+            {
+                "count": 6,
+                "host": "be-304-arsc1.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 5.52,
+                "Avg": 10.74,
+                "Best": 5.52,
+                "Wrst": 13.099,
+                "StDev": 2.36
+            },
+            {
+                "count": 7,
+                "host": "c-50-175-47-142.unallocated.comcastbusiness.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 13.743,
+                "Avg": 24.822,
+                "Best": 12.004,
+                "Wrst": 70.756,
+                "StDev": 21.753
+            },
+            {
+                "count": 8,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 9,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 10,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 11,
+                "host": "a23-41-4-86.deploy.static.akamaitechnologies.com",
+                "ASN": "AS20940",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.724,
+                "Avg": 10.858,
+                "Best": 7.772,
+                "Wrst": 13.47,
+                "StDev": 1.892
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "api.tiktokv.com",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.308,
+                "Avg": 0.338,
+                "Best": 0.306,
+                "Wrst": 0.434,
+                "StDev": 0.037
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 1.061,
+                "Avg": 1.246,
+                "Best": 0.814,
+                "Wrst": 1.847,
+                "StDev": 0.404
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.195",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.899,
+                "Avg": 11.393,
+                "Best": 9.382,
+                "Wrst": 14.038,
+                "StDev": 1.53
+            },
+            {
+                "count": 4,
+                "host": "po-321-370-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.574,
+                "Avg": 11.957,
+                "Best": 9.574,
+                "Wrst": 13.395,
+                "StDev": 1.161
+            },
+            {
+                "count": 5,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.709,
+                "Avg": 11.171,
+                "Best": 9.829,
+                "Wrst": 13.015,
+                "StDev": 1.12
+            },
+            {
+                "count": 6,
+                "host": "be-304-arsc1.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 46.036,
+                "Avg": 13.847,
+                "Best": 6.502,
+                "Wrst": 46.036,
+                "StDev": 11.468
+            },
+            {
+                "count": 7,
+                "host": "be-36111-cs01.seattle.wa.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 13.178,
+                "Avg": 11.662,
+                "Best": 9.502,
+                "Wrst": 13.735,
+                "StDev": 1.559
+            },
+            {
+                "count": 8,
+                "host": "be-2111-pe11.seattle.wa.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 30.0,
+                "Snt": 10,
+                "Last": 10.535,
+                "Avg": 11.374,
+                "Best": 6.611,
+                "Wrst": 14.021,
+                "StDev": 2.628
+            },
+            {
+                "count": 9,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 10,
+                "host": "ae3.digfort-sea6.netarch.akamai.com",
+                "ASN": "AS20940",
+                "Loss%": 50.0,
+                "Snt": 10,
+                "Last": 9400.4,
+                "Avg": 6348.4,
+                "Best": 5016.8,
+                "Wrst": 9400.4,
+                "StDev": 1781.1
+            },
+            {
+                "count": 11,
+                "host": "a23-38-191-136.deploy.static.akamaitechnologies.com",
+                "ASN": "AS20940",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 13.67,
+                "Avg": 11.856,
+                "Best": 9.043,
+                "Wrst": 18.455,
+                "StDev": 2.742
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "bytecdn.cn",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.306,
+                "Avg": 0.396,
+                "Best": 0.299,
+                "Wrst": 0.857,
+                "StDev": 0.167
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 1.828,
+                "Avg": 1.117,
+                "Best": 0.64,
+                "Wrst": 1.828,
+                "StDev": 0.366
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.194",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.254,
+                "Avg": 9.99,
+                "Best": 4.634,
+                "Wrst": 12.52,
+                "StDev": 2.163
+            },
+            {
+                "count": 4,
+                "host": "po-321-369-rur901.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 13.115,
+                "Avg": 10.838,
+                "Best": 9.074,
+                "Wrst": 13.115,
+                "StDev": 1.377
+            },
+            {
+                "count": 5,
+                "host": "po-2-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.591,
+                "Avg": 9.476,
+                "Best": 4.843,
+                "Wrst": 12.927,
+                "StDev": 2.73
+            },
+            {
+                "count": 6,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 9.329,
+                "Avg": 9.986,
+                "Best": 7.97,
+                "Wrst": 12.434,
+                "StDev": 1.357
+            },
+            {
+                "count": 7,
+                "host": "po-2-xar01.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.393,
+                "Avg": 11.053,
+                "Best": 8.869,
+                "Wrst": 12.279,
+                "StDev": 1.123
+            },
+            {
+                "count": 8,
+                "host": "be-304-arsc1.burien.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 13.777,
+                "Avg": 11.85,
+                "Best": 10.093,
+                "Wrst": 13.777,
+                "StDev": 1.105
+            },
+            {
+                "count": 9,
+                "host": "be-36131-cs03.portland.or.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 14.457,
+                "Avg": 15.24,
+                "Best": 12.32,
+                "Wrst": 25.612,
+                "StDev": 3.868
+            },
+            {
+                "count": 10,
+                "host": "be-1311-cr11.portland.or.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 16.648,
+                "Avg": 15.442,
+                "Best": 10.742,
+                "Wrst": 22.616,
+                "StDev": 3.0
+            },
+            {
+                "count": 11,
+                "host": "be-303-cr13.sunnyvale.ca.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 28.656,
+                "Avg": 29.521,
+                "Best": 26.968,
+                "Wrst": 32.76,
+                "StDev": 1.986
+            },
+            {
+                "count": 12,
+                "host": "be-1313-cs03.sunnyvale.ca.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 26.971,
+                "Avg": 27.513,
+                "Best": 23.371,
+                "Wrst": 30.361,
+                "StDev": 2.145
+            },
+            {
+                "count": 13,
+                "host": "be-1312-cr12.sunnyvale.ca.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 28.89,
+                "Avg": 28.726,
+                "Best": 26.666,
+                "Wrst": 30.828,
+                "StDev": 1.441
+            },
+            {
+                "count": 14,
+                "host": "be-301-cr12.9greatoaks.ca.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 27.263,
+                "Avg": 29.116,
+                "Best": 27.263,
+                "Wrst": 30.695,
+                "StDev": 1.22
+            },
+            {
+                "count": 15,
+                "host": "be-1112-cs01.9greatoaks.ca.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 29.427,
+                "Avg": 27.989,
+                "Best": 23.004,
+                "Wrst": 31.099,
+                "StDev": 2.113
+            },
+            {
+                "count": 16,
+                "host": "be-2101-pe01.9greatoaks.ca.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 29.084,
+                "Avg": 30.077,
+                "Best": 27.402,
+                "Wrst": 31.335,
+                "StDev": 1.344
+            },
+            {
+                "count": 17,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 18,
+                "host": "202.97.59.105",
+                "ASN": "AS4134",
+                "Loss%": 70.0,
+                "Snt": 10,
+                "Last": 196.47,
+                "Avg": 195.47,
+                "Best": 194.28,
+                "Wrst": 196.47,
+                "StDev": 1.107
+            },
+            {
+                "count": 19,
+                "host": "202.97.12.53",
+                "ASN": "AS4134",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 195.72,
+                "Avg": 197.07,
+                "Best": 194.12,
+                "Wrst": 198.91,
+                "StDev": 1.498
+            },
+            {
+                "count": 20,
+                "host": "202.97.34.73",
+                "ASN": "AS4134",
+                "Loss%": 10.0,
+                "Snt": 10,
+                "Last": 176.57,
+                "Avg": 178.83,
+                "Best": 176.57,
+                "Wrst": 181.66,
+                "StDev": 1.612
+            },
+            {
+                "count": 21,
+                "host": "36.110.248.134",
+                "ASN": "AS???",
+                "Loss%": 70.0,
+                "Snt": 10,
+                "Last": 192.12,
+                "Avg": 189.91,
+                "Best": 188.72,
+                "Wrst": 192.12,
+                "StDev": 1.915
+            },
+            {
+                "count": 22,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 23,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 24,
+                "host": "36.110.178.69",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 204.05,
+                "Avg": 204.34,
+                "Best": 199.99,
+                "Wrst": 215.34,
+                "StDev": 4.688
+            },
+            {
+                "count": 25,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 26,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 27,
+                "host": "123.58.0.50",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 198.69,
+                "Avg": 199.82,
+                "Best": 196.84,
+                "Wrst": 201.55,
+                "StDev": 1.345
+            },
+            {
+                "count": 28,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 29,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 30,
+                "host": "122.14.229.52",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 199.62,
+                "Avg": 198.98,
+                "Best": 194.18,
+                "Wrst": 201.09,
+                "StDev": 2.097
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "musical.ly",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "localhost",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.065,
+                "Avg": 0.046,
+                "Best": 0.035,
+                "Wrst": 0.065,
+                "StDev": 0.009
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "ns-1475.awsdns-56.org",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.589,
+                "Avg": 0.419,
+                "Best": 0.294,
+                "Wrst": 0.687,
+                "StDev": 0.147
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 1.344,
+                "Avg": 1.19,
+                "Best": 0.694,
+                "Wrst": 1.545,
+                "StDev": 0.315
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.195",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.678,
+                "Avg": 12.371,
+                "Best": 9.6,
+                "Wrst": 15.38,
+                "StDev": 1.711
+            },
+            {
+                "count": 4,
+                "host": "po-321-370-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.535,
+                "Avg": 10.347,
+                "Best": 4.829,
+                "Wrst": 12.875,
+                "StDev": 2.892
+            },
+            {
+                "count": 5,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 9.827,
+                "Avg": 10.869,
+                "Best": 7.801,
+                "Wrst": 13.322,
+                "StDev": 1.776
+            },
+            {
+                "count": 6,
+                "host": "po-2-xar01.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 6.325,
+                "Avg": 8.852,
+                "Best": 4.49,
+                "Wrst": 12.92,
+                "StDev": 2.543
+            },
+            {
+                "count": 7,
+                "host": "be-304-arsc1.burien.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 13.483,
+                "Avg": 11.337,
+                "Best": 6.97,
+                "Wrst": 13.483,
+                "StDev": 1.941
+            },
+            {
+                "count": 8,
+                "host": "68.86.94.141",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 17.248,
+                "Avg": 14.714,
+                "Best": 11.164,
+                "Wrst": 17.248,
+                "StDev": 1.973
+            },
+            {
+                "count": 9,
+                "host": "96.110.33.94",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 28.492,
+                "Avg": 29.31,
+                "Best": 27.628,
+                "Wrst": 32.534,
+                "StDev": 1.52
+            },
+            {
+                "count": 10,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "ns-1574.awsdns-04.co.uk",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.354,
+                "Avg": 0.421,
+                "Best": 0.326,
+                "Wrst": 0.797,
+                "StDev": 0.164
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 1.032,
+                "Avg": 1.15,
+                "Best": 0.594,
+                "Wrst": 1.416,
+                "StDev": 0.227
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.195",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.417,
+                "Avg": 9.639,
+                "Best": 6.036,
+                "Wrst": 13.449,
+                "StDev": 2.22
+            },
+            {
+                "count": 4,
+                "host": "po-321-370-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.304,
+                "Avg": 11.468,
+                "Best": 9.106,
+                "Wrst": 13.944,
+                "StDev": 1.478
+            },
+            {
+                "count": 5,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.669,
+                "Avg": 10.863,
+                "Best": 7.899,
+                "Wrst": 12.797,
+                "StDev": 1.529
+            },
+            {
+                "count": 6,
+                "host": "be-304-arsc1.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 13.079,
+                "Avg": 11.231,
+                "Best": 8.161,
+                "Wrst": 15.031,
+                "StDev": 2.074
+            },
+            {
+                "count": 7,
+                "host": "be-36111-cs01.seattle.wa.ibone.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 20.0,
+                "Snt": 10,
+                "Last": 11.278,
+                "Avg": 12.099,
+                "Best": 8.143,
+                "Wrst": 19.978,
+                "StDev": 3.713
+            },
+            {
+                "count": 8,
+                "host": "96.110.34.130",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.416,
+                "Avg": 11.301,
+                "Best": 8.85,
+                "Wrst": 13.38,
+                "StDev": 1.359
+            },
+            {
+                "count": 9,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 10,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 11,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 12,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 13,
+                "host": "205.251.198.38",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.795,
+                "Avg": 11.204,
+                "Best": 9.836,
+                "Wrst": 13.112,
+                "StDev": 1.119
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "ns-440.awsdns-55.com",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.44,
+                "Avg": 0.411,
+                "Best": 0.335,
+                "Wrst": 0.526,
+                "StDev": 0.075
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 1.152,
+                "Avg": 1.194,
+                "Best": 0.665,
+                "Wrst": 1.77,
+                "StDev": 0.307
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.194",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 7.603,
+                "Avg": 12.042,
+                "Best": 7.603,
+                "Wrst": 15.001,
+                "StDev": 2.249
+            },
+            {
+                "count": 4,
+                "host": "po-321-369-rur901.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 8.561,
+                "Avg": 10.227,
+                "Best": 8.561,
+                "Wrst": 11.297,
+                "StDev": 0.972
+            },
+            {
+                "count": 5,
+                "host": "po-2-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 8.439,
+                "Avg": 10.301,
+                "Best": 8.439,
+                "Wrst": 11.69,
+                "StDev": 0.975
+            },
+            {
+                "count": 6,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 17.945,
+                "Avg": 11.561,
+                "Best": 10.087,
+                "Wrst": 17.945,
+                "StDev": 2.283
+            },
+            {
+                "count": 7,
+                "host": "po-2-xar01.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 9.667,
+                "Avg": 10.728,
+                "Best": 7.022,
+                "Wrst": 12.394,
+                "StDev": 1.59
+            },
+            {
+                "count": 8,
+                "host": "be-304-arsc1.burien.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.094,
+                "Avg": 12.309,
+                "Best": 9.578,
+                "Wrst": 14.841,
+                "StDev": 1.627
+            },
+            {
+                "count": 9,
+                "host": "68.86.94.133",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 16.141,
+                "Avg": 14.987,
+                "Best": 12.143,
+                "Wrst": 18.158,
+                "StDev": 2.312
+            },
+            {
+                "count": 10,
+                "host": "96.110.33.2",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 33.062,
+                "Avg": 35.134,
+                "Best": 33.062,
+                "Wrst": 38.294,
+                "StDev": 1.651
+            },
+            {
+                "count": 11,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 12,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 13,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 14,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 15,
+                "host": "205.251.193.184",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 36.33,
+                "Avg": 36.11,
+                "Best": 30.828,
+                "Wrst": 38.298,
+                "StDev": 2.114
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "ns-722.awsdns-26.net",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.328,
+                "Avg": 0.339,
+                "Best": 0.302,
+                "Wrst": 0.431,
+                "StDev": 0.038
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.901,
+                "Avg": 1.136,
+                "Best": 0.73,
+                "Wrst": 2.07,
+                "StDev": 0.366
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.195",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 13.977,
+                "Avg": 11.295,
+                "Best": 8.561,
+                "Wrst": 13.977,
+                "StDev": 2.139
+            },
+            {
+                "count": 4,
+                "host": "po-321-370-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.756,
+                "Avg": 11.214,
+                "Best": 9.211,
+                "Wrst": 14.589,
+                "StDev": 1.67
+            },
+            {
+                "count": 5,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 8.002,
+                "Avg": 11.569,
+                "Best": 8.002,
+                "Wrst": 14.201,
+                "StDev": 1.64
+            },
+            {
+                "count": 6,
+                "host": "po-2-xar01.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 4.045,
+                "Avg": 11.309,
+                "Best": 4.045,
+                "Wrst": 17.999,
+                "StDev": 3.572
+            },
+            {
+                "count": 7,
+                "host": "be-304-arsc1.burien.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.296,
+                "Avg": 11.532,
+                "Best": 10.075,
+                "Wrst": 13.178,
+                "StDev": 1.07
+            },
+            {
+                "count": 8,
+                "host": "68.86.94.141",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 16.831,
+                "Avg": 15.861,
+                "Best": 13.857,
+                "Wrst": 17.35,
+                "StDev": 1.098
+            },
+            {
+                "count": 9,
+                "host": "96.110.33.82",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 26.719,
+                "Avg": 27.667,
+                "Best": 24.146,
+                "Wrst": 31.16,
+                "StDev": 2.464
+            },
+            {
+                "count": 10,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "p16-tiktokcdn-com.akamaized.net",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.32,
+                "Avg": 0.345,
+                "Best": 0.289,
+                "Wrst": 0.445,
+                "StDev": 0.058
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.889,
+                "Avg": 0.931,
+                "Best": 0.702,
+                "Wrst": 1.504,
+                "StDev": 0.225
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.194",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 13.838,
+                "Avg": 10.483,
+                "Best": 4.994,
+                "Wrst": 13.838,
+                "StDev": 2.79
+            },
+            {
+                "count": 4,
+                "host": "po-321-369-rur901.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.993,
+                "Avg": 10.185,
+                "Best": 5.872,
+                "Wrst": 12.145,
+                "StDev": 1.896
+            },
+            {
+                "count": 5,
+                "host": "po-2-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.048,
+                "Avg": 11.382,
+                "Best": 5.062,
+                "Wrst": 18.866,
+                "StDev": 4.146
+            },
+            {
+                "count": 6,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 8.935,
+                "Avg": 10.892,
+                "Best": 4.999,
+                "Wrst": 17.391,
+                "StDev": 3.512
+            },
+            {
+                "count": 7,
+                "host": "be-304-arsc1.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.449,
+                "Avg": 13.403,
+                "Best": 9.45,
+                "Wrst": 20.089,
+                "StDev": 3.227
+            },
+            {
+                "count": 8,
+                "host": "c-50-175-47-142.unallocated.comcastbusiness.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.707,
+                "Avg": 22.78,
+                "Best": 10.894,
+                "Wrst": 50.505,
+                "StDev": 12.801
+            },
+            {
+                "count": 9,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 10,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 11,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 12,
+                "host": "23.213.34.171",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 14.975,
+                "Avg": 11.55,
+                "Best": 5.843,
+                "Wrst": 16.088,
+                "StDev": 3.035
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "tiktok.com",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.317,
+                "Avg": 0.382,
+                "Best": 0.263,
+                "Wrst": 0.664,
+                "StDev": 0.113
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 1.354,
+                "Avg": 1.225,
+                "Best": 0.55,
+                "Wrst": 2.016,
+                "StDev": 0.427
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.194",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.305,
+                "Avg": 10.407,
+                "Best": 5.749,
+                "Wrst": 13.914,
+                "StDev": 2.145
+            },
+            {
+                "count": 4,
+                "host": "po-321-369-rur901.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.814,
+                "Avg": 10.306,
+                "Best": 5.61,
+                "Wrst": 13.088,
+                "StDev": 2.76
+            },
+            {
+                "count": 5,
+                "host": "po-2-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 13.218,
+                "Avg": 11.049,
+                "Best": 9.472,
+                "Wrst": 13.336,
+                "StDev": 1.322
+            },
+            {
+                "count": 6,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.761,
+                "Avg": 11.179,
+                "Best": 7.047,
+                "Wrst": 13.47,
+                "StDev": 1.974
+            },
+            {
+                "count": 7,
+                "host": "be-304-arsc1.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.606,
+                "Avg": 10.606,
+                "Best": 7.136,
+                "Wrst": 14.136,
+                "StDev": 2.109
+            },
+            {
+                "count": 8,
+                "host": "c-50-175-47-142.unallocated.comcastbusiness.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.87,
+                "Avg": 19.184,
+                "Best": 11.87,
+                "Wrst": 49.561,
+                "StDev": 11.463
+            },
+            {
+                "count": 9,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 10,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 11,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 12,
+                "host": "a23-46-228-176.deploy.static.akamaitechnologies.com",
+                "ASN": "AS20940",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 14.409,
+                "Avg": 10.785,
+                "Best": 6.201,
+                "Wrst": 14.409,
+                "StDev": 2.638
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "tiktok.net",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.298,
+                "Avg": 0.329,
+                "Best": 0.285,
+                "Wrst": 0.43,
+                "StDev": 0.05
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 1.19,
+                "Avg": 1.188,
+                "Best": 0.912,
+                "Wrst": 1.652,
+                "StDev": 0.247
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.195",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.967,
+                "Avg": 9.877,
+                "Best": 5.784,
+                "Wrst": 13.408,
+                "StDev": 2.231
+            },
+            {
+                "count": 4,
+                "host": "po-321-370-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.73,
+                "Avg": 11.69,
+                "Best": 8.887,
+                "Wrst": 18.697,
+                "StDev": 2.671
+            },
+            {
+                "count": 5,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 8.271,
+                "Avg": 10.93,
+                "Best": 8.271,
+                "Wrst": 12.735,
+                "StDev": 1.583
+            },
+            {
+                "count": 6,
+                "host": "be-304-arsc1.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 9.565,
+                "Avg": 12.062,
+                "Best": 9.565,
+                "Wrst": 15.668,
+                "StDev": 2.027
+            },
+            {
+                "count": 7,
+                "host": "ae13.edge6.sea1.sp.lumen.tech",
+                "ASN": "AS3356",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.155,
+                "Avg": 13.927,
+                "Best": 7.324,
+                "Wrst": 26.608,
+                "StDev": 5.302
+            },
+            {
+                "count": 8,
+                "host": "ae0.11.bar4.SaltLakeCity1.net.lumen.tech",
+                "ASN": "AS3356",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 47.351,
+                "Avg": 50.6,
+                "Best": 47.32,
+                "Wrst": 63.651,
+                "StDev": 4.833
+            },
+            {
+                "count": 9,
+                "host": "4.53.7.174",
+                "ASN": "AS3356",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 66.596,
+                "Avg": 51.595,
+                "Best": 46.569,
+                "Wrst": 66.596,
+                "StDev": 5.734
+            },
+            {
+                "count": 10,
+                "host": "69-195-64-111.unifiedlayer.com",
+                "ASN": "AS46606",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 50.916,
+                "Avg": 48.594,
+                "Best": 45.608,
+                "Wrst": 52.047,
+                "StDev": 1.843
+            },
+            {
+                "count": 11,
+                "host": "po97.prv-leaf6a.net.unifiedlayer.com",
+                "ASN": "AS46606",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 48.365,
+                "Avg": 50.171,
+                "Best": 48.365,
+                "Wrst": 52.892,
+                "StDev": 1.647
+            },
+            {
+                "count": 12,
+                "host": "host2005.hostmonster.com",
+                "ASN": "AS46606",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 50.009,
+                "Avg": 50.149,
+                "Best": 47.343,
+                "Wrst": 52.479,
+                "StDev": 1.662
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "tiktokv.com",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.333,
+                "Avg": 0.333,
+                "Best": 0.269,
+                "Wrst": 0.48,
+                "StDev": 0.057
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 1.402,
+                "Avg": 1.112,
+                "Best": 0.917,
+                "Wrst": 1.537,
+                "StDev": 0.198
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.195",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.347,
+                "Avg": 11.325,
+                "Best": 6.026,
+                "Wrst": 15.767,
+                "StDev": 2.659
+            },
+            {
+                "count": 4,
+                "host": "po-321-370-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 9.995,
+                "Avg": 12.425,
+                "Best": 7.217,
+                "Wrst": 19.231,
+                "StDev": 3.927
+            },
+            {
+                "count": 5,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 13.641,
+                "Avg": 10.171,
+                "Best": 6.035,
+                "Wrst": 15.079,
+                "StDev": 3.103
+            },
+            {
+                "count": 6,
+                "host": "be-304-arsc1.seattle.wa.seattle.comcast.net",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.34,
+                "Avg": 15.177,
+                "Best": 9.232,
+                "Wrst": 37.015,
+                "StDev": 7.875
+            },
+            {
+                "count": 7,
+                "host": "be-36111-cs01.seattle.wa.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 50.0,
+                "Snt": 10,
+                "Last": 6.146,
+                "Avg": 11.513,
+                "Best": 6.146,
+                "Wrst": 15.72,
+                "StDev": 3.432
+            },
+            {
+                "count": 8,
+                "host": "be-2111-pe11.seattle.wa.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 20.0,
+                "Snt": 10,
+                "Last": 13.009,
+                "Avg": 11.974,
+                "Best": 9.228,
+                "Wrst": 14.862,
+                "StDev": 2.603
+            },
+            {
+                "count": 9,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 10,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 11,
+                "host": "a23-38-191-138.deploy.static.akamaitechnologies.com",
+                "ASN": "AS20940",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 5.894,
+                "Avg": 10.496,
+                "Best": 5.894,
+                "Wrst": 13.371,
+                "StDev": 2.057
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "v16a.tiktokcdn.com",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.383,
+                "Avg": 0.338,
+                "Best": 0.291,
+                "Wrst": 0.383,
+                "StDev": 0.029
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.961,
+                "Avg": 1.404,
+                "Best": 0.931,
+                "Wrst": 2.846,
+                "StDev": 0.562
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.194",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 16.182,
+                "Avg": 12.142,
+                "Best": 5.086,
+                "Wrst": 17.533,
+                "StDev": 4.497
+            },
+            {
+                "count": 4,
+                "host": "po-321-369-rur901.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.05,
+                "Avg": 11.869,
+                "Best": 9.684,
+                "Wrst": 14.544,
+                "StDev": 1.536
+            },
+            {
+                "count": 5,
+                "host": "po-2-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 8.575,
+                "Avg": 12.582,
+                "Best": 4.073,
+                "Wrst": 19.756,
+                "StDev": 5.199
+            },
+            {
+                "count": 6,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 9.293,
+                "Avg": 13.453,
+                "Best": 9.293,
+                "Wrst": 25.986,
+                "StDev": 4.72
+            },
+            {
+                "count": 7,
+                "host": "po-2-xar01.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.199,
+                "Avg": 14.327,
+                "Best": 6.367,
+                "Wrst": 20.258,
+                "StDev": 4.14
+            },
+            {
+                "count": 8,
+                "host": "be-304-arsc1.burien.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 13.726,
+                "Avg": 14.82,
+                "Best": 9.985,
+                "Wrst": 25.872,
+                "StDev": 4.767
+            },
+            {
+                "count": 9,
+                "host": "a23-32-46-72.deploy.static.akamaitechnologies.com",
+                "ASN": "AS33650",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.784,
+                "Avg": 11.459,
+                "Best": 5.139,
+                "Wrst": 17.812,
+                "StDev": 3.603
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "v16m.tiktokcdn.com",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.315,
+                "Avg": 0.306,
+                "Best": 0.287,
+                "Wrst": 0.339,
+                "StDev": 0.017
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.924,
+                "Avg": 1.088,
+                "Best": 0.505,
+                "Wrst": 2.564,
+                "StDev": 0.558
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.194",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.105,
+                "Avg": 12.437,
+                "Best": 6.618,
+                "Wrst": 20.553,
+                "StDev": 4.296
+            },
+            {
+                "count": 4,
+                "host": "po-321-369-rur901.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.098,
+                "Avg": 11.714,
+                "Best": 5.861,
+                "Wrst": 22.422,
+                "StDev": 4.43
+            },
+            {
+                "count": 5,
+                "host": "po-2-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 14.833,
+                "Avg": 11.455,
+                "Best": 6.552,
+                "Wrst": 21.363,
+                "StDev": 4.213
+            },
+            {
+                "count": 6,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 7.671,
+                "Avg": 10.551,
+                "Best": 6.655,
+                "Wrst": 17.054,
+                "StDev": 2.961
+            },
+            {
+                "count": 7,
+                "host": "be-304-arsc1.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.134,
+                "Avg": 11.745,
+                "Best": 6.921,
+                "Wrst": 17.483,
+                "StDev": 2.757
+            },
+            {
+                "count": 8,
+                "host": "c-50-175-47-142.unallocated.comcastbusiness.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.419,
+                "Avg": 18.967,
+                "Best": 9.049,
+                "Wrst": 43.68,
+                "StDev": 11.098
+            },
+            {
+                "count": 9,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 10,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 11,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 12,
+                "host": "a23-53-122-133.deploy.static.akamaitechnologies.com",
+                "ASN": "AS20940",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.28,
+                "Avg": 11.633,
+                "Best": 6.114,
+                "Wrst": 19.003,
+                "StDev": 4.11
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "v19.tiktokcdn.com",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.308,
+                "Avg": 0.306,
+                "Best": 0.28,
+                "Wrst": 0.342,
+                "StDev": 0.022
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 1.33,
+                "Avg": 1.114,
+                "Best": 0.678,
+                "Wrst": 1.6,
+                "StDev": 0.288
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.195",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 22.173,
+                "Avg": 14.524,
+                "Best": 8.731,
+                "Wrst": 22.173,
+                "StDev": 5.01
+            },
+            {
+                "count": 4,
+                "host": "po-321-370-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.891,
+                "Avg": 14.617,
+                "Best": 6.087,
+                "Wrst": 22.316,
+                "StDev": 4.622
+            },
+            {
+                "count": 5,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.104,
+                "Avg": 13.734,
+                "Best": 8.18,
+                "Wrst": 23.559,
+                "StDev": 4.244
+            },
+            {
+                "count": 6,
+                "host": "be-304-arsc1.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.266,
+                "Avg": 16.224,
+                "Best": 10.266,
+                "Wrst": 28.949,
+                "StDev": 5.512
+            },
+            {
+                "count": 7,
+                "host": "be-36141-cs04.seattle.wa.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 40.0,
+                "Snt": 10,
+                "Last": 12.819,
+                "Avg": 12.017,
+                "Best": 9.16,
+                "Wrst": 16.359,
+                "StDev": 2.58
+            },
+            {
+                "count": 8,
+                "host": "be-2412-pe12.seattle.wa.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.181,
+                "Avg": 13.041,
+                "Best": 6.542,
+                "Wrst": 21.985,
+                "StDev": 4.777
+            },
+            {
+                "count": 9,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 10,
+                "host": "146.75.42.73",
+                "ASN": "AS54113",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.621,
+                "Avg": 12.508,
+                "Best": 9.528,
+                "Wrst": 17.881,
+                "StDev": 2.649
+            }
+        ]
+    }
+}
+{
+    "report": {
+        "mtr": {
+            "src": "clampy",
+            "dst": "www.tiktok.com",
+            "tos": 0,
+            "tests": 10,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "10.0.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 0.312,
+                "Avg": 0.302,
+                "Best": 0.28,
+                "Wrst": 0.33,
+                "StDev": 0.014
+            },
+            {
+                "count": 2,
+                "host": "172.31.0.1",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 1.294,
+                "Avg": 1.107,
+                "Best": 0.566,
+                "Wrst": 1.945,
+                "StDev": 0.409
+            },
+            {
+                "count": 3,
+                "host": "10.60.231.194",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 20.034,
+                "Avg": 12.083,
+                "Best": 6.119,
+                "Wrst": 20.034,
+                "StDev": 3.852
+            },
+            {
+                "count": 4,
+                "host": "po-321-369-rur901.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.148,
+                "Avg": 13.414,
+                "Best": 9.61,
+                "Wrst": 21.1,
+                "StDev": 3.756
+            },
+            {
+                "count": 5,
+                "host": "po-2-rur902.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.188,
+                "Avg": 11.403,
+                "Best": 9.146,
+                "Wrst": 13.793,
+                "StDev": 1.277
+            },
+            {
+                "count": 6,
+                "host": "po-900-xar02.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 11.343,
+                "Avg": 11.091,
+                "Best": 7.198,
+                "Wrst": 15.294,
+                "StDev": 2.528
+            },
+            {
+                "count": 7,
+                "host": "be-304-arsc1.seattle.wa.seattle.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.928,
+                "Avg": 12.251,
+                "Best": 6.185,
+                "Wrst": 21.578,
+                "StDev": 3.901
+            },
+            {
+                "count": 8,
+                "host": "be-36111-cs01.seattle.wa.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 20.0,
+                "Snt": 10,
+                "Last": 12.739,
+                "Avg": 11.889,
+                "Best": 9.03,
+                "Wrst": 16.897,
+                "StDev": 2.602
+            },
+            {
+                "count": 9,
+                "host": "be-2111-pe11.seattle.wa.ibone.comcast.net",
+                "ASN": "AS7922",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 12.723,
+                "Avg": 12.185,
+                "Best": 9.485,
+                "Wrst": 17.646,
+                "StDev": 2.363
+            },
+            {
+                "count": 10,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 11,
+                "host": "ae11.r01.sea01.icn.netarch.akamai.com",
+                "ASN": "AS20940",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 10.309,
+                "Avg": 10.237,
+                "Best": 5.415,
+                "Wrst": 13.243,
+                "StDev": 2.166
+            },
+            {
+                "count": 12,
+                "host": "ae3.r01.yvr01.icn.netarch.akamai.com",
+                "ASN": "AS20940",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 16.501,
+                "Avg": 15.714,
+                "Best": 10.259,
+                "Wrst": 26.898,
+                "StDev": 4.448
+            },
+            {
+                "count": 13,
+                "host": "ae5.r01.yvr01.ien.netarch.akamai.com",
+                "ASN": "AS20940",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 15.719,
+                "Avg": 21.873,
+                "Best": 12.581,
+                "Wrst": 55.402,
+                "StDev": 13.286
+            },
+            {
+                "count": 14,
+                "host": "ae5.r01.border.yvr01.sdn.netarch.akamai.com",
+                "ASN": "AS20940",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 18.105,
+                "Avg": 23.916,
+                "Best": 13.136,
+                "Wrst": 39.736,
+                "StDev": 9.756
+            },
+            {
+                "count": 15,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 16,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 10,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 17,
+                "host": "a23-213-230-197.deploy.static.akamaitechnologies.com",
+                "ASN": "AS20940",
+                "Loss%": 0.0,
+                "Snt": 10,
+                "Last": 13.319,
+                "Avg": 13.566,
+                "Best": 10.076,
+                "Wrst": 18.647,
+                "StDev": 2.248
+            }
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  GREETING: Hello, World!
+
+dotenv: [ '.env' ]
+
+
+tasks:
+  default:
+    cmds:
+      - echo "{{.GREETING}}"
+    silent: true
+  
+  all:
+    cmds:
+      - task: dig
+      - task: traceroute
+      - task: netify_batch
+
+  dig:
+    vars:
+      DNS_SRV: 1.1.1.1 8.8.8.8 198.101.242.72 205.204.88.60
+      FTAG:
+        sh: echo $(date +%Y-%h-%e-%H-%M)
+    cmds:
+      - mkdir -p ./dig
+      - for: { var: DNS_SRV, as: SRV }
+        task: dig_list
+        vars: {FTAG: '{{.FTAG}}', SRV: '{{.SRV}}' }
+
+
+  dig_list:
+    cmds:
+      - dig @{{.SRV}} +noall +qr +answer -f site-list.txt a > dig/a-{{.FTAG}}-{{.SRV}}.txt
+      - dig @{{.SRV}} +noall +qr +answer -f site-list.txt aaaa > dig/aaaa-{{.FTAG}}-{{.SRV}}.txt
+      - dig @{{.SRV}} +noall +qr +answer -f site-list.txt ns > dig/ns-{{.FTAG}}-{{.SRV}}.txt
+      - dig @{{.SRV}} +noall +qr +answer -f site-list.txt mx > dig/mx-{{.FTAG}}-{{.SRV}}.txt
+      - dig @{{.SRV}} +noall +qr +answer -f site-list.txt txt > dig/txt-{{.FTAG}}-{{.SRV}}.txt
+      - dig @{{.SRV}} +noall +qr +answer -f site-list.txt soa > dig/soa-{{.FTAG}}-{{.SRV}}.txt
+
+
+  traceroute:
+    cmds:
+      - mtr -l -z -j -F site-list.txt > mtr-tiktok-$(date +%Y-%h-%e-%H-%M).json
+
+  netify_data_domains:
+    # enterprise subscription only
+    cmds:
+      - 'curl -H "Authorization: Bearer {{.NETIFY_API_KEY}}" https://feeds.netify.ai/datasets/v2/application_domains/application_domains.json.gz'
+
+  netify_fetch:
+    # https://www.netify.ai/documentation/data-feeds/v2/api/hostname
+    vars:
+      CURL: 'curl -H "x-api-key: {{.NETIFY_API_KEY}}" '
+      FTAG:
+        sh: echo {{.CLI_ARGS}}-$(date +%Y-%h-%e-%H-%M).json
+    cmds:
+      -  '{{.CURL}} -o {{.FTAG}} https://feeds.netify.ai/api/v2/hostnames/{{.CLI_ARGS}}'
+
+  netify_batch:
+    vars:
+      CURL: 'curl --header "Content-Type: application/json" -H "x-api-key: {{.NETIFY_API_KEY}}" --request POST -d "@site-list.json" '
+      FTAG:
+        sh: echo netify-batch-$(date +%Y-%h-%e-%H-%M).json
+    cmds:
+      -  '{{.CURL}} -o {{.FTAG}} https://feeds.netify.ai/api/v2/hostnames'
+

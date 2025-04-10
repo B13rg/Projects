@@ -1,0 +1,3 @@
+SPF Record: `heritage.org.           300     IN      TXT     "v=spf1 include:mktomail.com include:mail.zendesk.com include:spf.protection.outlook.com include:_spf.psm.knowbe4.com include:sparkpostmail.com include:ses.echobox.com include:_spf.ultipro.com ip4:64.39.14.150 ip4:69.63.130.0/20 ip4:54.70.49.175 ip4:147.16" "0.167.0/26 ip4:34.211.27.223 ip4:199.15.213.192 ip4:198.187.147.254 ~all"`
+
+ip4:64.39.14.150 ip4:69.63.130.0/20 ip4:54.70.49.175 ip4:147.16" "0.167.0/26 ip4:34.211.27.223 ip4:199.15.213.192 ip4:198.187.147.254

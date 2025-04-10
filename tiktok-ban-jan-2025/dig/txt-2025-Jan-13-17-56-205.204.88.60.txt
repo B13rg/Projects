@@ -1,0 +1,67 @@
+api2-16-h2.musical.ly.	7177	IN	CNAME	api2-16-h2.musical.ly.edgekey.net.
+api2-16-h2.musical.ly.edgekey.net. 162 IN CNAME	e26771.a.akamaiedge.net.
+api21-h2.tiktokv.com.	5475	IN	CNAME	bytedance.map.fastly.net.
+api2-21-h2.musical.ly.	6153	IN	CNAME	bytedance.map.fastly.net.
+api2.musical.ly.	7200	IN	CNAME	api2.musical.ly.edgekey.net.
+api2.musical.ly.edgekey.net. 20569 IN	CNAME	e26771.a.akamaiedge.net.
+api-h2.tiktokv.com.	29	IN	CNAME	api-h2.tiktokv.com.ttdns2.com.
+api-h2.tiktokv.com.ttdns2.com. 11 IN	CNAME	api-h2.tiktokv.com.edgekey.net.
+api-h2.tiktokv.com.edgekey.net.	10113 IN CNAME	e28622.b.akamaiedge.net.
+api.tiktokv.com.	750	IN	CNAME	api.tiktokv.com.ttdns2.com.
+api.tiktokv.com.ttdns2.com. 55	IN	CNAME	api.tiktokv.com.edgekey.net.
+api.tiktokv.com.edgekey.net. 21567 IN	CNAME	e28622.a.akamaiedge.net.
+byted.org.		600	IN	TXT	"_globalsign-domain-verification=WTM686e4LhISYSsaRz-ytzMgzHIs4R6IhuAPaOx4GR"
+byteoversea.com.	280	IN	TXT	"_globalsign-domain-verification=dzOZrARDcgSwsEgNaM5V5JZN5xWDhvt0aaGMjb3aJT"
+ibytedtos.com.		600	IN	TXT	"google-site-verification=hLG-0BvmhJ_g-2fMMJxdyIeQPDeblq-wrUFK386m0S8"
+ibyteimg.com.		300	IN	TXT	"_globalsign-domain-verification=2AJKi5pE595qvSfbpQQVS4NgolSZpvl-R6sTyDPijq"
+log2.musical.ly.	201	IN	CNAME	log2.musical.ly.edgesuite.net.
+log2.musical.ly.edgesuite.net. 9151 IN	CNAME	a2047.r.akamai.net.
+log.tiktokv.com.	77	IN	CNAME	log.tiktokv.com.edgesuite.net.
+log.tiktokv.com.edgesuite.net. 431 IN	CNAME	a2047.r.akamai.net.
+mon.musical.ly.		599	IN	CNAME	mon.musical.ly.edgesuite.net.
+mon.musical.ly.edgesuite.net. 18470 IN	CNAME	a2047.r.akamai.net.
+m.tiktok.com.		597	IN	CNAME	m.tiktok.com.edgesuite.net.
+m.tiktok.com.edgesuite.net. 5321 IN	CNAME	a2047.r.akamai.net.
+muscdn.com.		287	IN	TXT	"MS=ms47650310"
+muscdn.com.		287	IN	TXT	"v=spf1 include:spf.protection.outlook.com -all"
+musical.ly.		294	IN	TXT	"v=spf1 include:spf.protection.outlook.com -all"
+musical.ly.		294	IN	TXT	"google-site-verification=466zfaqZPfpgb4lqFLqmo2hyjaEhhSAkRxWI9UCuFVA"
+musical.ly.		294	IN	TXT	"_globalsign-domain-verification=BahbT-Pu-HaLP9bBimZ0MGe-4CPc4Z_MXqKNUajBmF"
+musica.ly.		3600	IN	TXT	"v=spf1 -all"
+p16-tiktokcdn-com.akamaized.net. 1010 IN CNAME	a1965.dscb.akamai.net.
+tiktokcdn.com.		300	IN	TXT	"_globalsign-domain-verification=pJb2cgzoZjmH6DlvPhncdbxJAHehxebLDM3Bjamjod"
+tiktokcdn.com.		300	IN	TXT	"_globalsign-domain-verification=k_s4ba1wHQLrxhfRJLxvxWMxnLAWw3sJ9sEjlyqOXW"
+tiktok.com.		293	IN	TXT	"google-site-verification=UlwaFhsh7mBJzb0eTyZBibPg6HQ6doHO8-_tkmjBo4E"
+tiktok.com.		293	IN	TXT	"google-site-verification=ot5hoJ0_9g-FO6j5YX6aoLZpNM7N0y988ua0zsCDr88"
+tiktok.com.		293	IN	TXT	"facebook-domain-verification=iec6txjjw8r35xhq5swdem8tpa5mzw"
+tiktok.com.		293	IN	TXT	"_f3zsp3jcr9843f36xnpbfib409nlhjt"
+tiktok.com.		293	IN	TXT	"google-site-verification=9aMOY6RF3QT8X2ACpo04BZ4CSdjPWxRJgncABZtHRYY"
+tiktok.com.		293	IN	TXT	"google-site-verification=heUwjUSZGdrUk6gp54Bxe8zNWMepAUdI3eECZ7zzNuQ"
+tiktok.com.		293	IN	TXT	"_globalsign-domain-verification=1Ni6hs1g4f-qH0qkRxQIQCeAaV4qeDxB75CccRlHS9"
+tiktok.com.		293	IN	TXT	"google-site-verification=-pibSb_VhK-cZP1CQSaH7s43WbBkpzjhUwAgyc3YDH4"
+tiktok.com.		293	IN	TXT	"MS=ms80039204"
+tiktok.com.		293	IN	TXT	"klaviyo-site-verification=STK9xy"
+tiktok.com.		293	IN	TXT	"apple-domain-verification=hXgMRIDdysM4HJYw"
+tiktok.com.		293	IN	TXT	"v=spf1 include:_spf.google.com include:mail.zendesk.com include:spf.bytedance.com include:mail.stibee.com -all"
+tiktok.com.		293	IN	TXT	"google-site-verification=spKY3sgLfx2ShlMQbs-jaGpfyhukOMBQ9fV_cR8yKII"
+tiktok.com.		293	IN	TXT	"hubspot-developer-verification=YzdjZDc2ZDEtMDRmNS00MWQyLWJlNzUtY2Q4YmQyN2E0NDFl"
+tiktok.com.		293	IN	TXT	"MS=ms14857357"
+tiktok.com.		293	IN	TXT	"facebook-domain-verification=wo9l655kzm8rfqm1st3qe7gqduoqav"
+tiktok.com.		293	IN	TXT	"mailru-verification: c0f4705a229bd0c6"
+tiktok.com.		293	IN	TXT	"verification-code-site-edm-va=GkLVdrouyEyNQGsN0X0W"
+tiktok.com.		293	IN	TXT	"google-site-verification=2ZTMDlDhN4fD3hIKVj_1LnDKhTvf4NVhT23o-edCEVw"
+tiktok.com.		293	IN	TXT	"google-site-verification=6qNNoqXIzco_ObM8QE5IZfz2kLnLQkG-llKLL_HudVI"
+tiktok.com.		293	IN	TXT	"google-site-verification=StaGWBpu1eRwm0dUSA-24OmzeXAqkQitecePeqLQ0fc"
+tiktok.net.		14400	IN	TXT	"v=spf1 a mx ptr include:hostmonster.com ?all"
+tiktokv.com.		600	IN	TXT	"verify_f0d15c9e32461c26ceb0541423170979"
+tiktokv.com.		600	IN	TXT	"9f37d02ce3934f6d8e01d947a8bbe2f3"
+tiktokv.com.		600	IN	TXT	"v=spf1 -all"
+tiktokv.com.		600	IN	TXT	"_globalsign-domain-verification=BahbT-Pu-HaLP9bBimZ0MGe-4CPc4Z_MXqKNUajBmF"
+tiktokv.com.		600	IN	TXT	"google-site-verification=cIHowTkT1ekQD2t07MDPtSK7ZcAioqgCRA1Bz3jbRLI"
+v16a.tiktokcdn.com.	1089	IN	CNAME	dsa-video.traffic.bytedance.akadns.net.
+dsa-video.traffic.bytedance.akadns.net.	3573 IN	CNAME a156.b.akamai.net.
+v16m.tiktokcdn.com.	759	IN	CNAME	v16m.tiktokcdn.com.akamaized.net.
+v16m.tiktokcdn.com.akamaized.net. 13829	IN CNAME a747.mm1.akamai.net.
+v19.tiktokcdn.com.	207	IN	CNAME	video.bytedance.map.fastly.net.
+www.tiktok.com.		1800	IN	CNAME	www.tiktok.com.edgesuite.net.
+www.tiktok.com.edgesuite.net. 4549 IN	CNAME	a2047.api10.akamai.net.

@@ -1,0 +1,36 @@
+api2-16-h2.musical.ly.	7200	IN	CNAME	api2-16-h2.musical.ly.edgekey.net.
+api2-16-h2.musical.ly.edgekey.net. 801 IN CNAME	e26771.a.akamaiedge.net.
+api21-h2.tiktokv.com.	5240	IN	CNAME	bytedance.map.fastly.net.
+api2-21-h2.musical.ly.	3732	IN	CNAME	bytedance.map.fastly.net.
+api2.musical.ly.	7200	IN	CNAME	api2.musical.ly.edgekey.net.
+api2.musical.ly.edgekey.net. 7580 IN	CNAME	e26771.a.akamaiedge.net.
+api-h2.tiktokv.com.	32	IN	CNAME	api-h2.tiktokv.com.ttdns2.com.
+api-h2.tiktokv.com.ttdns2.com. 14 IN	CNAME	api-h2.tiktokv.com.edgekey.net.
+api-h2.tiktokv.com.edgekey.net.	19487 IN CNAME	e28622.b.akamaiedge.net.
+api.tiktokv.com.	613	IN	CNAME	api.tiktokv.com.ttdns2.com.
+api.tiktokv.com.ttdns2.com. 2	IN	CNAME	api.tiktokv.com.edgekey.net.
+api.tiktokv.com.edgekey.net. 11267 IN	CNAME	e28622.a.akamaiedge.net.
+bytecdn.cn.		3600	IN	MX	10 mxdomain.qq.com.
+log2.musical.ly.	223	IN	CNAME	log2.musical.ly.edgesuite.net.
+log2.musical.ly.edgesuite.net. 9173 IN	CNAME	a2047.r.akamai.net.
+log.tiktokv.com.	135	IN	CNAME	log.tiktokv.com.edgesuite.net.
+log.tiktokv.com.edgesuite.net. 8254 IN	CNAME	a2047.r.akamai.net.
+mon.musical.ly.		143	IN	CNAME	mon.musical.ly.edgesuite.net.
+mon.musical.ly.edgesuite.net. 16970 IN	CNAME	a2047.r.akamai.net.
+m.tiktok.com.		600	IN	CNAME	m.tiktok.com.edgesuite.net.
+m.tiktok.com.edgesuite.net. 21177 IN	CNAME	a2047.r.akamai.net.
+muscdn.com.		300	IN	MX	0 muscdn-com.mail.protection.outlook.com.
+musica.ly.		3600	IN	MX	0 localhost.
+p16-tiktokcdn-com.akamaized.net. 1576 IN CNAME	a1965.dscb.akamai.net.
+tiktokcdn.liveplay.myqcloud.com. 296 IN	CNAME	tdns.l3.sched.dcloudlive.com.
+tiktok.com.		3383	IN	MX	30 mx3.tiktok.com.
+tiktok.com.		3383	IN	MX	10 mx1.tiktok.com.
+tiktok.com.		3383	IN	MX	20 mx2.tiktok.com.
+tiktok.net.		14400	IN	MX	0 mail.tiktok.net.
+v16a.tiktokcdn.com.	1042	IN	CNAME	dsa-video.traffic.bytedance.akadns.net.
+dsa-video.traffic.bytedance.akadns.net.	3596 IN	CNAME a156.b.akamai.net.
+v16m.tiktokcdn.com.	780	IN	CNAME	v16m.tiktokcdn.com.akamaized.net.
+v16m.tiktokcdn.com.akamaized.net. 13850	IN CNAME a747.mm1.akamai.net.
+v19.tiktokcdn.com.	599	IN	CNAME	video.bytedance.map.fastly.net.
+www.tiktok.com.		1800	IN	CNAME	www.tiktok.com.edgesuite.net.
+www.tiktok.com.edgesuite.net. 16893 IN	CNAME	a2047.api10.akamai.net.
